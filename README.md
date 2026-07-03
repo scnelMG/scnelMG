@@ -79,11 +79,11 @@ ETF 정량 지표를 군집화하고, SHAP/생성형 AI로 대표 ETF와 보유 
 
 ## 기술 스택
 
-숙련도 기준: `●●●●●` 주도 가능 · `●●●●○` 실전 적용 · `●●●○○` 프로젝트 활용 · `●●○○○` 기본 구현 · `●○○○○` 경험 있음
+숙련도 기준: `●●●●●` 주력 · `●●●●○` 실전 적용 · `●●●○○` 프로젝트 활용 · `●●○○○` 기본 구현 · `●○○○○` 경험 있음
 
 **Data / ML**
 
-- `Python` `pandas` `NumPy` `scikit-learn` · `●●●●○`
+- `Python` `pandas` `NumPy` `scikit-learn` · `●●●●●`
   - 데이터 전처리, feature engineering, 모델 학습/평가를 여러 프로젝트에서 반복 적용
 - `LightGBM` `XGBoost` `CatBoost` · `●●●●○`
   - 금융 이상거래, 제조 품질, 의료 인접 tabular ML 경진대회에서 사용
@@ -106,7 +106,7 @@ ETF 정량 지표를 군집화하고, SHAP/생성형 AI로 대표 ETF와 보유 
 
 **Service / Tools**
 
-- `Git/GitHub` `Jupyter Notebook` · `●●●●○`
+- `Git/GitHub` `Jupyter Notebook` · `●●●●●`
   - 프로젝트 문서화, 공개 안전성 정리, 재현 가능성 관리에 지속 사용
 - `PyQt` `Flutter` `Vue` `Spring Boot` `Chrome Extension` · `●●○○○`
   - 데이터 분석 결과를 GUI, 앱, 웹 서비스, 확장 프로그램 형태로 연결한 경험
