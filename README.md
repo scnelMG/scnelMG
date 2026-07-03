@@ -79,11 +79,37 @@ ETF 정량 지표를 군집화하고, SHAP/생성형 AI로 대표 ETF와 보유 
 
 ## 기술 스택
 
-`Python` `SQL` `pandas` `NumPy` `scikit-learn` `LightGBM` `XGBoost` `CatBoost`
+숙련도 기준: `●●●●●` 주도 가능 · `●●●●○` 실전 적용 · `●●●○○` 프로젝트 활용 · `●●○○○` 기본 구현 · `●○○○○` 경험 있음
 
-`TensorFlow/Keras` `PyTorch` `SHAP` `Optuna` `LangChain` `CLIP` `Qwen2.5-VL`
+**Data / ML**
 
-`Flutter` `Vue` `Spring Boot` `PyQt` `Chrome Extension` `Git/GitHub`
+- `Python` `pandas` `NumPy` `scikit-learn` · `●●●●○`
+  - 데이터 전처리, feature engineering, 모델 학습/평가를 여러 프로젝트에서 반복 적용
+- `LightGBM` `XGBoost` `CatBoost` · `●●●●○`
+  - 금융 이상거래, 제조 품질, 의료 인접 tabular ML 경진대회에서 사용
+- `SHAP` `Optuna` · `●●●○○`
+  - 모델 해석과 하이퍼파라미터 튜닝 실험에 활용
+
+**Finance / Public Data**
+
+- `SQL` `금융 시계열` `공공데이터` · `●●●○○`
+  - 주식 데이터, ETF 지표, 공공데이터 추천 프로젝트에서 분석 흐름 구성
+- `Risk Scoring` `Customer Segmentation` · `●●●○○`
+  - 이상거래, 협업 리스크, 은행 고객 세분화 프로젝트에서 지표 설계
+
+**AI / Vision / NLP**
+
+- `TensorFlow/Keras` `PyTorch` · `●●●○○`
+  - RNN, tabular/vision-language baseline, notebook 기반 실험에 활용
+- `LangChain` `CLIP` `Qwen2.5-VL` `LoRA` · `●●○○○`
+  - 추천, 이미지 유사도, VQA baseline 프로젝트에서 적용 경험
+
+**Service / Tools**
+
+- `Git/GitHub` `Jupyter Notebook` · `●●●●○`
+  - 프로젝트 문서화, 공개 안전성 정리, 재현 가능성 관리에 지속 사용
+- `PyQt` `Flutter` `Vue` `Spring Boot` `Chrome Extension` · `●●○○○`
+  - 데이터 분석 결과를 GUI, 앱, 웹 서비스, 확장 프로그램 형태로 연결한 경험
 
 ## 연락처
 
