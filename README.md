@@ -1,25 +1,25 @@
-# 박민규 | Data & AI Portfolio
+# 박민규 | Data & AI
 
-금융·공공 데이터를 분석하고, 모델링 결과를 **서비스와 의사결정 흐름**으로 연결하는 데이터/AI 포트폴리오입니다.
+금융·공공 데이터를 분석하고, 모델링 결과를 **서비스와 의사결정 흐름**으로 연결합니다.
 
 관심 직무: **은행 IT/디지털**, **금융권 데이터·서비스 개발**, **공기업 전산직**
 
 [![Email](https://img.shields.io/badge/Email-qkralsrb4407%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:qkralsrb4407@gmail.com)
 [![Resume](https://img.shields.io/badge/Resume-Notion-000000?logo=notion&logoColor=white)](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
 [![GitHub](https://img.shields.io/badge/GitHub-scnelMG-181717?logo=github&logoColor=white)](https://github.com/scnelMG)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Repositories-2ea44f)](https://github.com/scnelMG?tab=repositories)
+[![Repositories](https://img.shields.io/badge/Repositories-Projects-2ea44f)](https://github.com/scnelMG?tab=repositories)
 
-## 제가 보여주고 싶은 것
+## 강점
 
 | 강점 | 설명 |
 | --- | --- |
-| 금융·공공 데이터 문제 정의 | ETF, 주식, 이상거래, 보험 리스크, 은행 고객 세분화처럼 도메인 맥락이 있는 데이터를 다뤘습니다. |
+| 도메인 기반 문제 정의 | ETF, 주식, 이상거래, 보험 리스크, 은행 고객 세분화처럼 맥락이 있는 데이터를 다뤘습니다. |
 | 모델링 이후의 연결 | 예측 점수에서 끝내지 않고 추천, 등급화, 고객군 전략, 사용자 화면으로 이어지는 흐름을 설계했습니다. |
-| 검토 가능한 문서화 | 데이터 공개 범위, 검증 방식, 모델 선택 이유, 한계와 재현 조건을 저장소에서 확인할 수 있게 정리합니다. |
+| 검토하기 쉬운 저장소 | 데이터 공개 범위, 검증 방식, 모델 선택 이유, 한계와 재현 조건을 함께 정리합니다. |
 
 ## 대표 프로젝트
 
-| 프로젝트 | 무엇을 확인할 수 있나 | 기술 |
+| 프로젝트 | 핵심 내용 | 기술 |
 | --- | --- | --- |
 | [Gen Pick - ETF 클러스터링과 생성형 AI 요약](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) | ETF 정량 지표를 군집화하고 SHAP, 생성형 AI 요약으로 설명 가능한 금융 분석 흐름을 구성했습니다. | `Python` `Clustering` `SHAP` `GenAI` |
 | [FSI AIxData Challenge 2024](https://github.com/scnelMG/FSI-AIxData-Challenge-2024) | 금융 이상거래 13개 유형을 불균형 처리, CTGAN, 앙상블 모델링으로 분류했습니다. | `Fraud Detection` `CTGAN` `LightGBM` `XGBoost` |
@@ -28,7 +28,7 @@
 | [밥;도 - 부산 공공데이터 맛집 추천](https://github.com/scnelMG/2025-bapdo-busan-publicdata) | 공공데이터, 리뷰 텍스트, 이미지 유사도를 결합해 지역 추천 서비스 흐름을 설계했습니다. | `Public Data` `LangChain` `CLIP` `FAISS` |
 | [Manufacturing DX Matching](https://github.com/scnelMG/manufacturing-dx-matching) | 제조업 DX 수요기업과 공급기업을 임베딩 기반으로 매칭하는 추천 구조를 실험했습니다. | `Embedding` `Matching` `Recommendation` |
 
-## 프로젝트 맵
+## 전체 프로젝트
 
 ### 금융 데이터 / 금융 리스크
 
@@ -54,7 +54,7 @@
 - [2026 AI Challenge](https://github.com/scnelMG/2026ai_challenge): Qwen2.5-VL과 LoRA 기반 VQA baseline
 - [Busan Esports Data Analysis](https://github.com/scnelMG/busan-esports-data-analysis): OP.GG 경기 데이터 기반 승패 예측과 feature 해석
 
-## 문서화 기준
+## 저장소 정리 기준
 
 각 저장소는 결과만 나열하지 않고, 검토자가 프로젝트의 판단 과정을 따라갈 수 있도록 정리합니다.
 
