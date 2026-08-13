@@ -2,7 +2,7 @@
 
 금융·공공 데이터를 바탕으로 문제를 정의하고, 분석·모델링 결과를 **의사결정과 사용자 서비스**로 연결합니다.
 
-`Python` · `SQL` · `Java / Spring Boot` · `Vue` · `Machine Learning` · `Generative AI`
+`Python` · `SQL` · `Java / Spring Boot` · `Vue` · `Machine Learning` · `Speech AI` · `Generative AI`
 
 [![Email](https://img.shields.io/badge/Email-qkralsrb4407%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:qkralsrb4407@gmail.com)
 [![Resume](https://img.shields.io/badge/Resume-Notion-000000?logo=notion&logoColor=white)](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
@@ -15,12 +15,14 @@
 | --- | --- |
 | 금융 도메인 분석 | ETF 군집화·설명, 이상거래 분류, 은행 고객 세분화, 인플루언서 리스크 평가를 수행했습니다. |
 | 분석에서 서비스까지 | 추천·등급화·고객 전략·데스크톱 GUI·웹/확장 프로그램까지 사용 흐름을 구현하거나 설계했습니다. |
+| AI 코칭 파이프라인 | 한국어 STT의 단어 타임스탬프를 바탕으로 필러·반복·쉼을 분석하고, 발표·면접 연습 리포트로 연결했습니다. |
 | 검증 가능한 공개 저장소 | 데이터 공개 범위, 재현 조건, 기술 선택 이유와 한계를 함께 기록합니다. |
 
 ## 대표 프로젝트
 
 | 프로젝트 | 문제와 결과 | 핵심 기술 |
 | --- | --- | --- |
+| [AIVO](https://github.com/scnelMG/aivo-portfolio) | 발표·면접 연습의 음성·영상·답변을 분석해 맞춤 피드백과 누적 기록으로 연결했습니다. 한국어 STT·필러 보완·발화 이벤트 산출을 담당했습니다. | `FastAPI` `faster-whisper` `Silero VAD` `Spring Boot` `Vue` |
 | [EZ-ONE](https://github.com/scnelMG/ez-one) | 채용 공고 저장, 지원 상태·자기소개서 관리, 공고 추출과 Notion 동기화를 하나의 취업 준비 워크스페이스로 연결했습니다. | `Spring Boot` `Vue` `Chrome Extension` `Notion API` |
 | [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) | ETF 지표를 군집화하고 SHAP·생성형 AI 요약으로 상품 설명 근거를 구성했습니다. | `Python` `Clustering` `SHAP` `GenAI` |
 | [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK) | 은행 고객 데이터를 이자·비이자 수익 관점으로 나누고 고객군별 관리 전략을 제안했습니다. | `Banking` `Segmentation` `Strategy` |
@@ -52,6 +54,7 @@
 - [EZ-ONE](https://github.com/scnelMG/ez-one) — 채용 준비 통합 관리 웹·확장 프로그램
 - [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance) — 식단 이미지 기반 질병 위험·보험 보장 매칭
 - [Manufacturing DX Matching](https://github.com/scnelMG/manufacturing-dx-matching) — 제조 DX 수요·공급기업 임베딩 매칭
+- [AIVO](https://github.com/scnelMG/aivo-portfolio) — 발표·면접 연습을 위한 AI 음성·영상 코칭 서비스
 
 ### AI · ML 응용
 
@@ -79,7 +82,7 @@
 | --- | --- |
 | Data | `Python` `SQL` `pandas` `NumPy` `Polars` |
 | Machine Learning | `scikit-learn` `LightGBM` `XGBoost` `CatBoost` `TensorFlow/Keras` `PyTorch` |
-| AI | `SHAP` `LangChain` `CLIP` `Qwen2.5-VL` `Generative AI` |
+| AI | `faster-whisper` `Silero VAD` `SHAP` `LangChain` `CLIP` `Qwen2.5-VL` `Generative AI` |
 | Service | `Java` `Spring Boot` `Vue` `PyQt` `Flutter` `Chrome Extension` |
 
 ## 연락처
