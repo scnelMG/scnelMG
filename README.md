@@ -22,7 +22,7 @@
 
 | 프로젝트 | 문제와 결과 | 핵심 기술 |
 | --- | --- | --- |
-| [AIVO](https://github.com/scnelMG/aivo-portfolio) | 발표·면접 연습의 음성·영상·답변을 분석해 맞춤 피드백과 누적 기록으로 연결했습니다. 한국어 STT·필러 보완·발화 이벤트 산출을 담당했습니다. | `FastAPI` `faster-whisper` `Silero VAD` `Spring Boot` `Vue` |
+| [aivo](https://github.com/scnelMG/aivo-portfolio) | 발표·면접 연습의 음성·영상·답변을 분석해 맞춤 피드백과 누적 기록으로 연결했습니다. 한국어 STT·필러 보완·발화 이벤트 산출을 담당했습니다. | `FastAPI` `faster-whisper` `Silero VAD` `Spring Boot` `Vue` |
 | [EZ-ONE](https://github.com/scnelMG/ez-one) | 채용 공고 저장, 지원 상태·자기소개서 관리, 공고 추출과 Notion 동기화를 하나의 취업 준비 워크스페이스로 연결했습니다. | `Spring Boot` `Vue` `Chrome Extension` `Notion API` |
 | [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) | ETF 지표를 군집화하고 SHAP·생성형 AI 요약으로 상품 설명 근거를 구성했습니다. | `Python` `Clustering` `SHAP` `GenAI` |
 | [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK) | 은행 고객 데이터를 이자·비이자 수익 관점으로 나누고 고객군별 관리 전략을 제안했습니다. | `Banking` `Segmentation` `Strategy` |
@@ -54,7 +54,7 @@
 - [EZ-ONE](https://github.com/scnelMG/ez-one) — 채용 준비 통합 관리 웹·확장 프로그램
 - [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance) — 식단 이미지 기반 질병 위험·보험 보장 매칭
 - [Manufacturing DX Matching](https://github.com/scnelMG/manufacturing-dx-matching) — 제조 DX 수요·공급기업 임베딩 매칭
-- [AIVO](https://github.com/scnelMG/aivo-portfolio) — 발표·면접 연습을 위한 AI 음성·영상 코칭 서비스
+- [aivo](https://github.com/scnelMG/aivo-portfolio) — 발표·면접 연습을 위한 AI 음성·영상 코칭 서비스
 
 ### AI · ML 응용
 
