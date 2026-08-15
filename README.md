@@ -50,15 +50,14 @@
 ### 공공 데이터 · 서비스
 
 - [Bapdo Busan PublicData](https://github.com/scnelMG/2025-bapdo-busan-publicdata) — 부산 공공데이터 기반 맛집 추천
-- [Busan PublicData Startup](https://github.com/scnelMG/Busan-PublicData-Startup-2025) — 공공데이터 앱 프로토타입
 - [EZ-ONE](https://github.com/scnelMG/ez-one) — 채용 준비 통합 관리 웹·확장 프로그램
 - [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance) — 식단 이미지 기반 질병 위험·보험 보장 매칭
 - [Manufacturing DX Matching](https://github.com/scnelMG/manufacturing-dx-matching) — 제조 DX 수요·공급기업 임베딩 매칭
 - [aivo](https://github.com/scnelMG/aivo-portfolio) — 발표·면접 연습을 위한 AI 음성·영상 코칭 서비스
+- [지원금여행콕](https://github.com/scnelMG/travel-subsidy-kok) — 여행 조건·공식 출처·체크리스트 기반 지원금 여행 코스 추천 프로토타입
 
 ### AI · ML 응용
 
-- [2026 AI Challenge](https://github.com/scnelMG/2026ai_challenge) — Qwen2.5-VL·LoRA 기반 VQA baseline
 - [Busan Esports Data Analysis](https://github.com/scnelMG/busan-esports-data-analysis) — OP.GG 경기 데이터 기반 승패 예측·해석
 - [LG AImers 5th](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction) — 제조 품질 이상 탐지
 - [LG AImers 6th](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction) — 난임 시술 데이터 기반 임신 성공 예측
