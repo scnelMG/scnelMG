@@ -1,69 +1,72 @@
 # 박민규 | Financial Data & AI Service Developer
 
-금융·공공 데이터를 바탕으로 문제를 정의하고, 분석·모델링 결과를 **의사결정과 사용자 서비스**로 연결합니다.
+> 금융·공공 데이터를 분석하고, 모델 결과를 **이해 가능한 근거와 실제 사용자 서비스**로 연결합니다.
 
-`Python` · `SQL` · `Java / Spring Boot` · `Vue` · `Machine Learning` · `Speech AI` · `Generative AI`
+`Financial Data` · `Machine Learning` · `AI Service` · `Python` · `SQL` · `Java / Spring Boot` · `Vue`
 
-[![Email](https://img.shields.io/badge/Email-qkralsrb4407%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:qkralsrb4407@gmail.com)
 [![Resume](https://img.shields.io/badge/Resume-Notion-000000?logo=notion&logoColor=white)](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
+[![Email](https://img.shields.io/badge/Email-qkralsrb4407%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:qkralsrb4407@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-scnelMG-181717?logo=github&logoColor=white)](https://github.com/scnelMG)
-[![Projects](https://img.shields.io/badge/Projects-21-2ea44f)](https://github.com/scnelMG?tab=repositories)
+[![Projects](https://img.shields.io/badge/Portfolio-21%20repositories-2ea44f)](https://github.com/scnelMG?tab=repositories)
 
-## 한눈에 보기
+## What I build
 
-| 강점 | 근거 |
-| --- | --- |
-| 금융 도메인 분석 | ETF 군집화·설명, 이상거래 분류, 은행 고객 세분화, 인플루언서 리스크 평가를 수행했습니다. |
-| 분석에서 서비스까지 | 추천·등급화·고객 전략·데스크톱 GUI·웹/확장 프로그램까지 사용 흐름을 구현하거나 설계했습니다. |
-| AI 코칭 파이프라인 | 한국어 STT의 단어 타임스탬프를 바탕으로 필러·반복·쉼을 분석하고, 발표·면접 연습 리포트로 연결했습니다. |
-| 검증 가능한 공개 저장소 | 데이터 공개 범위, 재현 조건, 기술 선택 이유와 한계를 함께 기록합니다. |
+- **Financial data & risk** — ETF 설명 가능성, 이상거래 분류, 은행 고객 세분화처럼 데이터를 의사결정 질문으로 바꿉니다.
+- **AI that reaches the user** — 음성 분석, 추천, 웹·확장 프로그램을 통해 모델 결과가 실제 다음 행동으로 이어지게 만듭니다.
+- **Inspectable work** — 각 대표 저장소에 문제 정의, 제 역할, 기술적 선택, 재현 범위와 공개 경계를 함께 기록합니다.
 
-## 대표 프로젝트
+## Selected work
 
-| 프로젝트 | 문제와 결과 | 핵심 기술 |
-| --- | --- | --- |
-| [aivo](https://github.com/scnelMG/aivo-portfolio) | 발표·면접 연습의 음성·영상·답변을 분석해 맞춤 피드백과 누적 기록으로 연결했습니다. 한국어 STT·필러 보완·발화 이벤트 산출을 담당했습니다. | `FastAPI` `faster-whisper` `Silero VAD` `Spring Boot` `Vue` |
-| [EZ-ONE](https://github.com/scnelMG/ez-one) | 채용 공고 저장, 지원 상태·자기소개서 관리, 공고 추출과 Notion 동기화를 하나의 취업 준비 워크스페이스로 연결했습니다. | `Spring Boot` `Vue` `Chrome Extension` `Notion API` |
-| [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) | ETF 지표를 군집화하고 SHAP·생성형 AI 요약으로 상품 설명 근거를 구성했습니다. | `Python` `Clustering` `SHAP` `GenAI` |
-| [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK) | 은행 고객 데이터를 이자·비이자 수익 관점으로 나누고 고객군별 관리 전략을 제안했습니다. | `Banking` `Segmentation` `Strategy` |
-| [FSI AIxData Challenge](https://github.com/scnelMG/FSI-AIxData-Challenge-2024) | 금융 이상거래 13개 유형을 불균형 처리·합성 데이터·앙상블로 분류했습니다. | `CTGAN` `LightGBM` `XGBoost` |
-| [밥;도](https://github.com/scnelMG/2025-bapdo-busan-publicdata) | 공공데이터, 리뷰 텍스트, 이미지 유사도를 결합해 부산 맛집 추천 흐름을 설계했습니다. | `LangChain` `CLIP` `FAISS` |
-| [ICT 멘토링 주가 예측](https://github.com/scnelMG/ict-mentoring-stock-prediction) | 주식 데이터 수집, 기술 지표, 시계열 모델 실험과 PyQt GUI를 하나의 예측 시스템으로 연결했습니다. | `LSTM` `GRU` `PyQt` |
+### [aivo](https://github.com/scnelMG/aivo-portfolio) · AI 발표·면접 코칭
 
-## 검증된 성과
+발표·면접 연습의 음성·영상·답변을 분석해 피드백과 누적 기록으로 연결한 서비스입니다.
+
+**My contribution**: 한국어 단어 타임스탬프 전사, 8초 재전사 기반 필러 보완, VAD·피치·RMS 기반 발화 이벤트와 코칭 점수 산출 파이프라인을 설계·구현했습니다. `FastAPI` `faster-whisper` `Silero VAD` `Spring Boot` `Vue`
+
+### [EZ-ONE](https://github.com/scnelMG/ez-one) · 취업 준비 통합 워크스페이스
+
+공고 저장, 지원 상태, 자기소개서, 참고자료를 하나의 흐름으로 연결한 웹·Chrome Extension 서비스입니다. [서비스 열기](https://ez-one.o-r.kr/) · [Chrome 웹 스토어](https://chromewebstore.google.com/detail/ez-one-job-saver/oamnhdoaefndncadifgaidefcjaomgdo?hl=ko)
+
+**My contribution**: 설계 문서, 로그인·온보딩, Mattermost 추천 공고, 서류 자동 입력·Chrome Extension, Notion·마이페이지, 과거 지원 내역을 담당했습니다. `Spring Boot` `Vue` `Chrome Extension` `Notion API`
+
+### [FSI AIxData Challenge 2024](https://github.com/scnelMG/FSI-AIxData-Challenge-2024) · 금융 이상거래 다중 분류
+
+13개 이상거래 유형의 불균형 분류 문제를 합성 데이터와 앙상블로 풀었습니다.
+
+**My contribution**: 생성 모델 파라미터·샘플링 실험, LightGBM·XGBoost 예측 모델 구축, 최종 제출 산출물 구성을 담당했습니다. `CTGAN` `LightGBM` `XGBoost`
+
+### [BNK Customer Segmentation](https://github.com/scnelMG/2025-dive-hackerton-BNK) · 은행 수익 구조 기반 고객 전략
+
+은행 고객 데이터를 이자·비이자 수익 관점으로 나누고, 고객군별 관리 전략으로 연결했습니다.
+
+**My contribution**: 구간형 데이터를 분석용 수치 데이터로 정제하고, 이자·비이자 수익 축의 K-Means 고객 세분화 모델을 구축했습니다. `Python` `K-Means` `Segmentation`
+
+### [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) · ETF 군집화·설명 가능성
+
+ETF 지표를 군집화하고 SHAP과 생성형 AI 요약으로 상품 설명의 근거를 구성한 데이터 경진 프로젝트입니다. `Python` `Clustering` `SHAP` `Generative AI`
+
+### [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance) · 식단 이미지 기반 위험·보장 매칭
+
+음식 이미지에서 영양·질병 위험을 추정하고 보험 보장 정보를 연결하는 서비스 프로토타입입니다.
+
+**My contribution**: 음식 클래스·이미지 수집·YOLO 라벨 변환 흐름, XGBoost·SMOTE 검증 근거, 보장 질병 기반 규칙 추천을 검토 가능한 공개 코드로 정리했습니다. `YOLO` `XGBoost` `SMOTE`
+
+## Recognition
 
 - **SSAFY 1학기 프로젝트 최우수상 · 대전 5반 1등** — EZ-ONE
 - **BNK금융지주 발제사 3등상** — DIVE 글로벌 해커톤 고객 세분화 프로젝트
 - **삼성화재 데이터기반 리스크관리 경진대회 장려상** — 인플루언서 협업 리스크 평가
 
-## 프로젝트 지도
+## Explore the portfolio
 
-### 금융 데이터 · 리스크
+| Track | Repositories |
+| --- | --- |
+| **Financial data · risk** | [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) · [FSI](https://github.com/scnelMG/FSI-AIxData-Challenge-2024) · [ICT Stock](https://github.com/scnelMG/ict-mentoring-stock-prediction) · [Samsungfire](https://github.com/scnelMG/Samsungfire_Risk_Management) · [KRX](https://github.com/scnelMG/2023_KRX_Stock_Algorithm) · [BNK](https://github.com/scnelMG/2025-dive-hackerton-BNK) |
+| **Public data · service** | [Bapdo](https://github.com/scnelMG/2025-bapdo-busan-publicdata) · [EZ-ONE](https://github.com/scnelMG/ez-one) · [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance) · [Manufacturing DX](https://github.com/scnelMG/manufacturing-dx-matching) · [aivo](https://github.com/scnelMG/aivo-portfolio) · [지원금여행콕](https://github.com/scnelMG/travel-subsidy-kok) |
+| **AI · ML application** | [Busan Esports](https://github.com/scnelMG/busan-esports-data-analysis) · [LG Aimers 5th](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction) · [LG Aimers 6th](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction) · [Music GraphRAG](https://github.com/scnelMG/music-kg-graphrag) |
 
-- [2024 NH Bigdata ETF GenPick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) — ETF 군집화와 생성형 AI 기반 설명 요약
-- [FSI AIxData Challenge 2024](https://github.com/scnelMG/FSI-AIxData-Challenge-2024) — 금융 이상거래 다중 분류
-- [ICT Stock Prediction](https://github.com/scnelMG/ict-mentoring-stock-prediction) — 주가 데이터, RNN 예측, GUI 구현
-- [Samsungfire Risk Management](https://github.com/scnelMG/Samsungfire_Risk_Management) — 인플루언서 협업 리스크 등급화
-- [2023 KRX Stock Algorithm](https://github.com/scnelMG/2023_KRX_Stock_Algorithm) — KRX 주식 시계열 예측과 제출 흐름
-- [BNK Customer Segmentation](https://github.com/scnelMG/2025-dive-hackerton-BNK) — 은행 수익 구조 기반 고객 전략
-
-### 공공 데이터 · 서비스
-
-- [Bapdo Busan PublicData](https://github.com/scnelMG/2025-bapdo-busan-publicdata) — 부산 공공데이터 기반 맛집 추천
-- [EZ-ONE](https://github.com/scnelMG/ez-one) — 채용 준비 통합 관리 웹·확장 프로그램
-- [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance) — 식단 이미지 기반 질병 위험·보험 보장 매칭
-- [Manufacturing DX Matching](https://github.com/scnelMG/manufacturing-dx-matching) — 제조 DX 수요·공급기업 임베딩 매칭
-- [aivo](https://github.com/scnelMG/aivo-portfolio) — 발표·면접 연습을 위한 AI 음성·영상 코칭 서비스
-- [지원금여행콕](https://github.com/scnelMG/travel-subsidy-kok) — 여행 조건·공식 출처·체크리스트 기반 지원금 여행 코스 추천 프로토타입
-
-### AI · ML 응용
-
-- [Busan Esports Data Analysis](https://github.com/scnelMG/busan-esports-data-analysis) — OP.GG 경기 데이터 기반 승패 예측·해석
-- [LG AImers 5th](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction) — 제조 품질 이상 탐지
-- [LG AImers 6th](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction) — 난임 시술 데이터 기반 임신 성공 예측
-- [Music Knowledge Graph & GraphRAG](https://github.com/scnelMG/music-kg-graphrag) — 음악 메타데이터 지식 그래프·GraphRAG 설계
-
-### 학습 · 분석 아카이브
+<details>
+<summary>학습 · 분석 아카이브 5개 보기</summary>
 
 - [Coding Test](https://github.com/scnelMG/Coding_Test) — Java 기반 알고리즘 문제 풀이
 - [Data Analysis](https://github.com/scnelMG/Data_Analysis) — OP.GG 기반 이스포츠 데이터 분석 실습
@@ -71,21 +74,14 @@
 - [ML Study](https://github.com/scnelMG/ML_study) — 지도학습 기초 실습 노트북
 - [Python Practice](https://github.com/scnelMG/python_practice) — Python·데이터 분석 학습 아카이브
 
-## 저장소를 읽는 방법
+</details>
 
-대표 프로젝트 README는 `문제 정의 → 역할과 기여 → 기술적 의사결정 → 결과·재현 범위 → 공개 경계` 순서로 확인할 수 있습니다. 학습 아카이브는 완성형 서비스가 아닌 실습·실험 기록임을 명시해 프로젝트 저장소와 구분합니다.
+## Technical toolkit
 
-## 기술 스택
+| Data & ML | AI | Service |
+| --- | --- | --- |
+| `Python` `SQL` `pandas` `NumPy` `Polars` `scikit-learn` `LightGBM` `XGBoost` `CatBoost` | `faster-whisper` `Silero VAD` `SHAP` `LangChain` `CLIP` `Qwen2.5-VL` | `Java` `Spring Boot` `Vue` `PyQt` `Flutter` `Chrome Extension` |
 
-| 영역 | 기술 |
-| --- | --- |
-| Data | `Python` `SQL` `pandas` `NumPy` `Polars` |
-| Machine Learning | `scikit-learn` `LightGBM` `XGBoost` `CatBoost` `TensorFlow/Keras` `PyTorch` |
-| AI | `faster-whisper` `Silero VAD` `SHAP` `LangChain` `CLIP` `Qwen2.5-VL` `Generative AI` |
-| Service | `Java` `Spring Boot` `Vue` `PyQt` `Flutter` `Chrome Extension` |
+## Contact
 
-## 연락처
-
-- Email: [qkralsrb4407@gmail.com](mailto:qkralsrb4407@gmail.com)
-- Resume: [Notion 이력서](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
-- GitHub: [github.com/scnelMG](https://github.com/scnelMG)
+[Notion 이력서](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link) · [qkralsrb4407@gmail.com](mailto:qkralsrb4407@gmail.com) · [github.com/scnelMG](https://github.com/scnelMG)
