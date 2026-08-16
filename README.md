@@ -2,7 +2,7 @@
 
 > Financial Data & AI Service Developer
 >
-> 데이터를 분석하고, 모델 결과를 **사용자가 이해하고 활용할 수 있는 서비스**로 연결합니다.
+> 데이터와 AI를 **사용 가능한 서비스**로 만듭니다.
 
 `Financial Data` · `Machine Learning` · `AI Service`
 
