@@ -20,38 +20,34 @@
 
 ## 실제 서비스
 
-| 서비스 | Live demo | GitHub |
-| --- | --- | --- |
-| **aivo** | [Live demo](https://aivo.ai.kr/) | [GitHub](https://github.com/scnelMG/aivo-portfolio) |
-| **EZ-ONE** | [Live demo](https://ez-one.o-r.kr/) | [GitHub](https://github.com/scnelMG/ez-one) |
+- **aivo** · AI 발표·면접 코칭 서비스 · [서비스 열기](https://aivo.ai.kr/) · [GitHub 저장소](https://github.com/scnelMG/aivo-portfolio)
+- **EZ-ONE** · 공고 단위 취업 준비 워크스페이스 · [서비스 열기](https://ez-one.o-r.kr/) · [GitHub 저장소](https://github.com/scnelMG/ez-one)
 
 ## 대표 프로젝트
 
-- [**aivo**](https://github.com/scnelMG/aivo-portfolio) — AI 발표·면접 코칭 서비스 · **담당:** 한국어 STT·필러 보완·발화 이벤트·점수 산출 · [외부 유저 테스트 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
-- [**EZ-ONE**](https://github.com/scnelMG/ez-one) — 취업 준비 워크스페이스 · **담당:** Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력
-- [**BNK Customer Strategy**](https://github.com/scnelMG/2025-dive-hackerton-BNK) — 금융 고객 세분화 해커톤 · **담당:** 구간형 데이터 정합성·수치화·K-Means 입력 데이터셋
+- [**aivo**](https://github.com/scnelMG/aivo-portfolio) · 한국어 STT·필러 보완·발화 이벤트·점수 산출 구현 · [외부 유저 테스트 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
+- [**EZ-ONE**](https://github.com/scnelMG/ez-one) · Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력 구현
+- [**BNK Customer Strategy**](https://github.com/scnelMG/2025-dive-hackerton-BNK) · 구간형 데이터 정합성·수치화 및 K-Means 분석 입력 데이터셋 구축
 
-## 수상
+## 주요 수상
 
-| 날짜 | 수상 |
-| --- | --- |
-| 2026.06 | **최우수상** · SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one) |
-| 2025.11 | **대상** · 지산학 연계 산업수학 데이터 탐구 대회<br>[부산시 무더위쉼터 최적 입지 연구](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link) |
-| 2025.08 | **3등상** · DIVE 글로벌 해커톤 · [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK) |
-| 2023.11 | **장려상** · 삼성화재 × POSTECH 리스크관리 경진대회<br>[유튜버 협업 리스크 등급화](https://github.com/scnelMG/Samsungfire_Risk_Management) |
-| 2023.09 | **대상** · 핀테크 연구 아이디어 경진대회<br>[YOLOv5 기반 식단 분석을 통한 질병 예측·보험 추천 인슈어테크 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance) |
+- **2026.06 · 최우수상** · SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one)
+- **2025.11 · 대상** · 지산학 연계 산업수학 데이터 탐구 대회 · [부산시 무더위쉼터 최적 입지 연구](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
+- **2025.08 · 3등상** · DIVE 글로벌 해커톤 · [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK)
+- **2023.11 · 장려상** · 삼성화재 × POSTECH 리스크관리 경진대회 · [유튜버 협업 리스크 등급화](https://github.com/scnelMG/Samsungfire_Risk_Management)
+- **2023.09 · 대상** · 핀테크 연구 아이디어 경진대회 · [EveryHI 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance)
 
 <details>
 <summary><strong>그 외 완료 프로젝트 10개 보기</strong></summary>
 
 <br />
 
-### 서비스 · 제품
+**서비스 · 제품**
 
 - [**EveryHI**](https://github.com/scnelMG/EveryHI-food-risk-insurance)<br>
   식단 이미지 → 질병 위험 신호·보험 보장 항목을 연결한 인슈어테크 PoC
 
-### 금융 · 비즈니스 데이터
+**금융 · 비즈니스 데이터**
 
 - [**Gen Pick**](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)<br>
   ETF 정량 지표 군집화와 생성형 AI·SHAP 근거 설명
@@ -62,7 +58,7 @@
 - [**ICT Mentoring Stock Prediction**](https://github.com/scnelMG/ict-mentoring-stock-prediction)<br>
   OHLCV·뉴스·LSTM/GRU·PyQt 기반 시계열 예측 시스템
 
-### AI · 머신러닝
+**AI · 머신러닝**
 
 - [**FSI AIxData Challenge**](https://github.com/scnelMG/FSI-AIxData-Challenge-2024)<br>
   CTGAN 불균형 처리 기반 이상 금융거래 분류 · Private 0.702640 / 22위
