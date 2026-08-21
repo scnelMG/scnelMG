@@ -18,16 +18,20 @@
   </a>
 </p>
 
-## 실제 서비스
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white" alt="Vue.js" />
+</p>
 
-- **aivo** · AI 발표·면접 코칭 서비스 · [서비스 열기](https://aivo.ai.kr/) · [GitHub 저장소](https://github.com/scnelMG/aivo-portfolio)
-- **EZ-ONE** · 공고 단위 취업 준비 워크스페이스 · [서비스 열기](https://ez-one.o-r.kr/) · [GitHub 저장소](https://github.com/scnelMG/ez-one)
+## 대표 프로젝트 · 실제 사용 흐름과 데이터 문제 해결
 
-## 대표 프로젝트
-
-- [**aivo**](https://github.com/scnelMG/aivo-portfolio) · 한국어 STT·필러 보완·발화 이벤트·점수 산출 구현 · [외부 유저 테스트 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
-- [**EZ-ONE**](https://github.com/scnelMG/ez-one) · Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력 구현
-- [**BNK Customer Strategy**](https://github.com/scnelMG/2025-dive-hackerton-BNK) · 구간형 데이터 정합성·수치화 및 K-Means 분석 입력 데이터셋 구축
+- **aivo · AI 발표·면접 코칭** · 한국어 STT·필러 보완·발화 이벤트·점수 산출 구현 · [서비스 열기](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [외부 유저 테스트 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
+- **EZ-ONE · 취업 준비 워크스페이스** · Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력 구현 · [서비스 열기](https://ez-one.o-r.kr/) · [저장소](https://github.com/scnelMG/ez-one)
+- **BNK Customer Strategy · 금융 고객 세분화** · 구간형 데이터 정합성·수치화와 K-Means 분석 입력 데이터셋 구축 · [저장소](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
 ## 주요 수상
 
