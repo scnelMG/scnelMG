@@ -61,11 +61,11 @@
 **AI · 머신러닝**
 
 - [**FSI AIxData Challenge**](https://github.com/scnelMG/FSI-AIxData-Challenge-2024)<br>
-  극단적 불균형의 13개 금융거래 유형을 누수 없는 CTGAN 증강·교차검증·앙상블로 분류 · Private 0.702640 / 22위
+  극단적 불균형의 13개 이상 금융거래 유형을 누수 없는 CTGAN 증강·교차검증·앙상블로 분류 · Private 0.702640 / 22위
 - [**LG Aimers 5기**](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction)<br>
   제조 공정·장비·검사 피처의 품질 이상을 샘플링·CatBoost/RandomForest 블렌딩·임계값 비교로 탐지
 - [**LG Aimers 6기**](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction)<br>
-  난임 시술 기록의 결측·범주형·불균형을 검증해 임신 성공 확률을 예측 · 최고 공개 ROC-AUC 0.741430139
+  난임 시술 기록의 결측·범주형·불균형을 처리해 임신 성공 확률을 예측 · 최고 공개 ROC-AUC 0.741430139
 - [**Manufacturing DX Matching**](https://github.com/scnelMG/manufacturing-dx-matching)<br>
   명시적 기술 수요가 없는 제조기업 설명을 기술 후보로 바꾸고, 특허·솔루션 임베딩 검색으로 공급기업을 추천
 - [**Busan Esports Data Analysis**](https://github.com/scnelMG/busan-esports-data-analysis)<br>
