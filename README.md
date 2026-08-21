@@ -6,9 +6,21 @@
 [![Resume](https://img.shields.io/badge/Resume-Notion-000000?logo=notion&logoColor=white)](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
 [![Email](https://img.shields.io/badge/Email-qkralsrb4407%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:qkralsrb4407@gmail.com)
 
-**실제 서비스** · [aivo](https://aivo.ai.kr/) · [EZ-ONE](https://ez-one.o-r.kr/)
+## About Me
 
-## 완성 프로젝트
+- 금융·공공·산업 데이터를 분석해 **사람이 판단하고 사용할 수 있는 서비스와 의사결정 도구**로 연결합니다.
+- Java·Spring Boot 기반 서비스와 Python 기반 분석·모델링을 함께 다루며, 데이터 정합성·검증 근거·공개 경계를 명확히 남깁니다.
+
+## What I Focus On
+
+`문제 정의 → 데이터 정합성 → 검증 가능한 모델링 → 실제 사용 흐름`
+
+## Now Live
+
+- [**aivo**](https://aivo.ai.kr/) — 발표·면접 연습의 발화·영상·답변 분석을 반복 리포트로 연결하는 AI 코칭 서비스
+- [**EZ-ONE**](https://ez-one.o-r.kr/) — 채용 공고 저장부터 자기소개서 준비까지 공고 단위로 관리하는 취업 준비 워크스페이스
+
+## 완료 프로젝트
 
 ### 서비스 · 제품
 
