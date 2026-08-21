@@ -4,7 +4,7 @@
 >
 > 데이터와 AI를 **사용 가능한 서비스**로 만듭니다.
 
-`Financial Data` · `Machine Learning` · `AI Service`
+Financial Data · Machine Learning · AI Service
 
 [![Resume](https://img.shields.io/badge/Resume-Notion-000000?logo=notion&logoColor=white)](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
 [![Email](https://img.shields.io/badge/Email-qkralsrb4407%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:qkralsrb4407@gmail.com)
@@ -12,7 +12,7 @@
 ## 대표 프로젝트
 
 - [**aivo**](https://github.com/scnelMG/aivo-portfolio) — AI 발표·면접 코칭 서비스
-  - 한국어 음성 전사와 필러·쉼 분석을 바탕으로 맞춤 피드백을 생성했습니다. `FastAPI` `faster-whisper` `Silero VAD`
+  - 한국어 음성 전사와 필러·쉼 분석을 바탕으로 맞춤 피드백을 생성했습니다. FastAPI, faster-whisper, Silero VAD
 - [**EZ-ONE**](https://github.com/scnelMG/ez-one) — 취업 준비 통합 워크스페이스
   - 로그인·온보딩, 공고 추천, Chrome Extension, Notion 연동을 담당했습니다. [서비스](https://ez-one.o-r.kr/)
 - [**Financial ML**](https://github.com/scnelMG/FSI-AIxData-Challenge-2024) — 금융 이상거래 분류와 고객 세분화
