@@ -6,38 +6,40 @@
 
 <p align="center">
   <a href="https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link">
-    <img src="https://img.shields.io/badge/Resume-Notion-000000?logo=notion&logoColor=white" alt="Resume" />
+    <img src="https://img.shields.io/badge/Resume-000000?logo=notion&logoColor=white" alt="이력서 보기" />
   </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn 프로필" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn 프로필" />
   </a>
+  &nbsp;
   <a href="mailto:qkralsrb4407@gmail.com">
-    <img src="https://img.shields.io/badge/Email-qkralsrb4407%40gmail.com-EA4335?logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white" alt="이메일 보내기" />
   </a>
 </p>
 
 ## 실제 서비스
 
-| 서비스 | 한 줄 소개 | 링크 |
+| 서비스 | Live demo | GitHub |
 | --- | --- | --- |
-| **aivo** | 발화·영상·답변 분석을 반복 리포트로 연결하는 AI 발표·면접 코칭 서비스 | [서비스 열기](https://aivo.ai.kr/) |
-| **EZ-ONE** | 채용 공고 저장부터 자기소개서 준비까지 공고 단위로 관리하는 취업 준비 워크스페이스 | [서비스 열기](https://ez-one.o-r.kr/) |
+| **aivo** | [Live demo](https://aivo.ai.kr/) | [GitHub](https://github.com/scnelMG/aivo-portfolio) |
+| **EZ-ONE** | [Live demo](https://ez-one.o-r.kr/) | [GitHub](https://github.com/scnelMG/ez-one) |
 
 ## 대표 프로젝트
 
-- [**aivo**](https://github.com/scnelMG/aivo-portfolio) — 혼자 하는 발표·면접 연습의 피드백 공백을 음성·영상·답변 분석과 누적 리포트로 보완한 서비스 · 외부 유저 테스트 피드백 17건
-- [**EZ-ONE**](https://github.com/scnelMG/ez-one) — Chrome Extension 공고 저장과 Notion 동기화로 지원 준비 맥락을 공고 단위로 연결한 웹 서비스
-- [**BNK Customer Strategy**](https://github.com/scnelMG/2025-dive-hackerton-BNK) — 금융 고객 데이터를 이자·비이자이익 관점으로 분리하고 K-Means 세분화로 관리 전략을 제안한 해커톤 프로젝트
+- [**aivo**](https://github.com/scnelMG/aivo-portfolio) — AI 발표·면접 코칭 서비스 · **담당:** 한국어 STT·필러 보완·발화 이벤트·점수 산출 · [외부 유저 테스트 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
+- [**EZ-ONE**](https://github.com/scnelMG/ez-one) — 취업 준비 워크스페이스 · **담당:** Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력
+- [**BNK Customer Strategy**](https://github.com/scnelMG/2025-dive-hackerton-BNK) — 금융 고객 세분화 해커톤 · **담당:** 구간형 데이터 정합성·수치화·K-Means 입력 데이터셋
 
 ## 수상
 
-| 날짜 | 수상 | 프로젝트·주제 |
-| --- | --- | --- |
-| 2026.06.26 | 삼성청년SW·AI아카데미 1학기 프로젝트 경진대회 **최우수상** | [EZ-ONE](https://github.com/scnelMG/ez-one) |
-| 2025.11.24 | 지산학 연계 산업수학 데이터 탐구 대회 **대상** | 폭염 취약계층 보호를 위한 부산시 무더위쉼터 최적 입지 선정 연구 |
-| 2025.08.24 | 2025 DIVE 글로벌 해커톤 · BNK금융그룹 발제사 **3등상** | [BNK 고객 세분화 및 관리 전략](https://github.com/scnelMG/2025-dive-hackerton-BNK) |
-| 2023.11.14 | 삼성화재 × POSTECH 데이터기반 리스크관리 경진대회 **장려상** | [유튜버 협업 리스크 등급화](https://github.com/scnelMG/Samsungfire_Risk_Management) |
-| 2023.09.21 | 핀테크 연구 아이디어 경진대회 **대상** | [YOLOv5 기반 식단 분석을 통한 질병 예측·보험 추천 인슈어테크 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance) |
+| 날짜 | 수상 |
+| --- | --- |
+| 2026.06 | **최우수상** · SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one) |
+| 2025.11 | **대상** · 지산학 연계 산업수학 데이터 탐구 대회<br>[부산시 무더위쉼터 최적 입지 연구](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link) |
+| 2025.08 | **3등상** · DIVE 글로벌 해커톤 · [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK) |
+| 2023.11 | **장려상** · 삼성화재 × POSTECH 리스크관리 경진대회<br>[유튜버 협업 리스크 등급화](https://github.com/scnelMG/Samsungfire_Risk_Management) |
+| 2023.09 | **대상** · 핀테크 연구 아이디어 경진대회<br>[YOLOv5 기반 식단 분석을 통한 질병 예측·보험 추천 인슈어테크 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance) |
 
 <details>
 <summary><strong>그 외 완료 프로젝트 10개 보기</strong></summary>
