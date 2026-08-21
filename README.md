@@ -8,6 +8,9 @@
   <a href="https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link">
     <img src="https://img.shields.io/badge/Resume-Notion-000000?logo=notion&logoColor=white" alt="Resume" />
   </a>
+  <a href="https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn 프로필" />
+  </a>
   <a href="mailto:qkralsrb4407@gmail.com">
     <img src="https://img.shields.io/badge/Email-qkralsrb4407%40gmail.com-EA4335?logo=gmail&logoColor=white" alt="Email" />
   </a>
