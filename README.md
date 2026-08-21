@@ -37,7 +37,7 @@
 | 2025.11.24 | 지산학 연계 산업수학 데이터 탐구 대회 **대상** | 폭염 취약계층 보호를 위한 부산시 무더위쉼터 최적 입지 선정 연구 |
 | 2025.08.24 | 2025 DIVE 글로벌 해커톤 · BNK금융그룹 발제사 **3등상** | [BNK 고객 세분화 및 관리 전략](https://github.com/scnelMG/2025-dive-hackerton-BNK) |
 | 2023.11.14 | 삼성화재 × POSTECH 데이터기반 리스크관리 경진대회 **장려상** | [유튜버 협업 리스크 등급화](https://github.com/scnelMG/Samsungfire_Risk_Management) |
-| 2023.09.21 | 핀테크 연구 아이디어 경진대회 **대상** | YOLOv5 기반 식단 분석을 통한 질병 예측·보험 추천 인슈어테크 제안 |
+| 2023.09.21 | 핀테크 연구 아이디어 경진대회 **대상** | [YOLOv5 기반 식단 분석을 통한 질병 예측·보험 추천 인슈어테크 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance) |
 
 <details>
 <summary><strong>그 외 완료 프로젝트 10개 보기</strong></summary>
