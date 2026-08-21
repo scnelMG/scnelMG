@@ -61,7 +61,7 @@
 **AI · 머신러닝**
 
 - [**FSI AIxData Challenge**](https://github.com/scnelMG/FSI-AIxData-Challenge-2024)<br>
-  극단적 불균형의 13개 이상 금융거래 유형을 누수 없는 CTGAN 증강·교차검증·앙상블로 분류 · Private 0.702640 / 22위
+  극단적 불균형의 13개 Fraud_Type(이상 금융거래 유형)를 누수 없는 CTGAN 증강·교차검증·앙상블로 분류 · Private 0.702640 / 22위
 - [**LG Aimers 5기**](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction)<br>
   제조 공정·장비·검사 피처의 품질 이상을 샘플링·CatBoost/RandomForest 블렌딩·임계값 비교로 탐지
 - [**LG Aimers 6기**](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction)<br>
