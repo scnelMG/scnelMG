@@ -45,30 +45,30 @@
 **서비스 · 제품**
 
 - [**EveryHI**](https://github.com/scnelMG/EveryHI-food-risk-insurance)<br>
-  식단 이미지 → 질병 위험 신호·보험 보장 항목을 연결한 인슈어테크 PoC
+  식단 사진에서 음식·영양 정보를 추출해 질병 위험 신호와 보험 보장 항목을 탐색한 인슈어테크 PoC
 
 **금융 · 비즈니스 데이터**
 
 - [**Gen Pick**](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)<br>
-  ETF 정량 지표 군집화와 생성형 AI·SHAP 근거 설명
+  ETF 수익·위험·보유 패턴을 군집화하고 XGBoost·SHAP으로 군집별 ETF 선택 근거를 설명한 금융 데이터 분석
 - [**Samsungfire Risk Management**](https://github.com/scnelMG/Samsungfire_Risk_Management)<br>
-  유튜버 협업 후보의 리스크 등급화
+  유튜버의 규모·성장·댓글 감성·업로드 안정성을 점수화해 협업 후보 리스크 등급을 산출한 분석
 - [**KRX Stock Algorithm**](https://github.com/scnelMG/2023_KRX_Stock_Algorithm)<br>
-  Long–Short 기대수익률 순위 제출 파일 생성
+  가격·재무·군집 피처로 15거래일 기대수익률을 예측해 Long–Short 종목 순위 제출 파일을 만든 경진대회 프로젝트
 - [**ICT Mentoring Stock Prediction**](https://github.com/scnelMG/ict-mentoring-stock-prediction)<br>
-  OHLCV·뉴스·LSTM/GRU·PyQt 기반 시계열 예측 시스템
+  OHLCV·기술 지표·뉴스 키워드를 수집해 ARIMA·LSTM·GRU 실험 결과를 PyQt 화면에서 확인한 시계열 예측 프로토타입
 
 **AI · 머신러닝**
 
 - [**FSI AIxData Challenge**](https://github.com/scnelMG/FSI-AIxData-Challenge-2024)<br>
-  CTGAN 불균형 처리 기반 이상 금융거래 분류 · Private 0.702640 / 22위
+  극단적 불균형의 13개 금융거래 유형을 누수 없는 CTGAN 증강·교차검증·앙상블로 분류 · Private 0.702640 / 22위
 - [**LG Aimers 5기**](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction)<br>
-  고차원 제조 공정의 불균형 품질 이상 탐지
+  제조 공정·장비·검사 피처의 품질 이상을 샘플링·CatBoost/RandomForest 블렌딩·임계값 비교로 탐지
 - [**LG Aimers 6기**](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction)<br>
-  난임 시술 tabular 예측 · 최고 공개 ROC-AUC 0.741430139
+  난임 시술 기록의 결측·범주형·불균형을 검증해 임신 성공 확률을 예측 · 최고 공개 ROC-AUC 0.741430139
 - [**Manufacturing DX Matching**](https://github.com/scnelMG/manufacturing-dx-matching)<br>
-  제조 수요·공급기업을 임베딩 검색으로 매칭
+  명시적 기술 수요가 없는 제조기업 설명을 기술 후보로 바꾸고, 특허·솔루션 임베딩 검색으로 공급기업을 추천
 - [**Busan Esports Data Analysis**](https://github.com/scnelMG/busan-esports-data-analysis)<br>
-  League of Legends 승패 예측·feature 해석 · LightGBM 5-fold 정확도 0.8763
+  League of Legends 경기·선수·챔피언 지표로 승패를 예측하고 모델 feature를 해석 · LightGBM 5-fold 정확도 0.8763
 
 </details>
