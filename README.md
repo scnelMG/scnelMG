@@ -1,8 +1,9 @@
 <h1 align="center">박민규</h1>
 
-<p align="center"><strong>Financial Data &amp; AI Service Developer</strong></p>
-
-<p align="center">금융 데이터를 분석하고, AI를 실제 사용 흐름으로 연결합니다.</p>
+<p align="center">
+  <strong>Financial Data &amp; AI Service Developer</strong><br />
+  금융 데이터를 분석하고, AI를 실제 사용 흐름으로 연결합니다.
+</p>
 
 <p align="center">
   <a href="https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link">
@@ -27,19 +28,36 @@
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white" alt="Vue.js" />
 </p>
 
-## 대표 프로젝트 · 실제 사용 흐름과 데이터 문제 해결
+## 대표 프로젝트
 
-- **aivo · AI 발표·면접 코칭** · 한국어 STT·필러 보완·발화 이벤트·점수 산출 구현 · [서비스 열기](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [외부 유저 테스트 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
-- **EZ-ONE · 취업 준비 워크스페이스** · Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력 구현 · [서비스 열기](https://ez-one.o-r.kr/) · [저장소](https://github.com/scnelMG/ez-one)
-- **BNK Customer Strategy · 금융 고객 세분화** · 구간형 데이터 정합성·수치화와 K-Means 분석 입력 데이터셋 구축 · [저장소](https://github.com/scnelMG/2025-dive-hackerton-BNK)
+### aivo · AI 발표·면접 코칭
+
+한국어 STT·필러 보완·발화 이벤트·점수 산출을 구현해 혼자 하는 연습의 피드백 공백을 보완했습니다.<br>
+[서비스 열기](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [외부 유저 테스트 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
+
+### EZ-ONE · 취업 준비 워크스페이스
+
+Chrome Extension 공고 저장, Notion 동기화, 서류 자동 입력으로 채용 준비 맥락을 공고 단위로 연결했습니다.<br>
+[서비스 열기](https://ez-one.o-r.kr/) · [저장소](https://github.com/scnelMG/ez-one)
+
+### BNK Customer Strategy · 금융 고객 세분화
+
+구간형 금융 데이터의 정합성을 점검·수치화하고, K-Means 분석을 위한 입력 데이터셋을 구축했습니다.<br>
+[저장소](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
 ## 주요 수상
 
 - **2026.06 · 최우수상** · SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one)
 - **2025.11 · 대상** · 지산학 연계 산업수학 데이터 탐구 대회 · [부산시 무더위쉼터 최적 입지 연구](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
 - **2025.08 · 3등상** · DIVE 글로벌 해커톤 · [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK)
+
+<details>
+<summary>기타 수상 2건</summary>
+
 - **2023.11 · 장려상** · 삼성화재 × POSTECH 리스크관리 경진대회 · [유튜버 협업 리스크 등급화](https://github.com/scnelMG/Samsungfire_Risk_Management)
 - **2023.09 · 대상** · 핀테크 연구 아이디어 경진대회 · [EveryHI 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance)
+
+</details>
 
 <details>
 <summary><strong>그 외 완료 프로젝트 10개 보기</strong></summary>
