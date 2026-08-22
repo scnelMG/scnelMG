@@ -32,28 +32,28 @@
 
 ### aivo
 
-발표·면접 연습의 음성·영상·답변을 분석해 반복 리포트로 제공하는 서비스입니다.
-
-**담당**<br>
-한국어 STT·필러 보완·발화 이벤트·점수 산출
+- **서비스**<br>
+  발표·면접 연습의 음성·영상·답변을 분석해 반복 리포트로 제공
+- **담당**<br>
+  한국어 STT·필러 보완·발화 이벤트·점수 산출
 
 [서비스 열기](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [외부 사용자 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
 
 ### EZ-ONE
 
-채용 공고 저장부터 지원서 작성까지 공고 단위로 관리하는 취업 준비 서비스입니다.
-
-**담당**<br>
-Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력
+- **서비스**<br>
+  채용 공고 저장부터 지원서 작성까지 공고 단위로 관리하는 취업 준비 서비스
+- **담당**<br>
+  Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력
 
 [서비스 열기](https://ez-one.o-r.kr/) · [저장소](https://github.com/scnelMG/ez-one)
 
 ### BNK 고객 세분화 프로젝트
 
-이자·비이자이익 기준으로 고객을 세분화해 관리 전략을 제안한 금융 데이터 해커톤입니다.
-
-**담당**<br>
-구간형 데이터 정합성 점검·수치화·K-Means 입력 데이터셋 구축
+- **프로젝트**<br>
+  이자·비이자이익 기준으로 고객을 세분화해 관리 전략을 제안한 금융 데이터 해커톤
+- **담당**<br>
+  구간형 데이터 정합성 점검·수치화·K-Means 입력 데이터셋 구축
 
 [저장소](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
@@ -61,54 +61,58 @@ Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력
 
 - **2026.06 · 최우수상**<br>
   SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one)
+
 - **2025.11 · 대상**<br>
   지산학 연계 산업수학 데이터 탐구 대회 · 부산시 무더위쉼터 최적 입지 연구
+
 - **2025.08 · 발제사 3등**<br>
   DIVE 글로벌 해커톤 · [BNK 고객 세분화 프로젝트](https://github.com/scnelMG/2025-dive-hackerton-BNK)
+
 - **2023.11 · 장려상**<br>
   삼성화재 × POSTECH 리스크관리 경진대회 · [유튜버 협업 리스크 등급화](https://github.com/scnelMG/Samsungfire_Risk_Management)
+
 - **2023.09 · 대상**<br>
   핀테크 연구 아이디어 경진대회 · [EveryHI 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance)
 
 <details>
-<summary><strong>그 외 완료 프로젝트 10개 보기</strong></summary>
+<summary>그 외 완료 프로젝트 10개 보기</summary>
 
 <br />
 
-**서비스 · 제품**
+### 서비스 · 제품
 
-[**EveryHI**](https://github.com/scnelMG/EveryHI-food-risk-insurance)<br>
-식단 사진에서 음식·영양 정보를 추출해 질병 위험 신호와 보험 보장 항목을 탐색한 인슈어테크 PoC
+- [**EveryHI**](https://github.com/scnelMG/EveryHI-food-risk-insurance)<br>
+  식단 사진에서 음식·영양 정보를 추출해 질병 위험 신호와 보험 보장 항목을 탐색한 인슈어테크 PoC
 
-**금융 · 비즈니스 데이터**
+### 금융 · 비즈니스 데이터
 
-[**Gen Pick**](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)<br>
-ETF 수익·위험·보유 패턴을 군집화하고 XGBoost·SHAP으로 군집별 ETF 선택 근거를 설명한 금융 데이터 분석
+- [**Gen Pick**](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)<br>
+  ETF 수익·위험·보유 패턴을 군집화하고 XGBoost·SHAP으로 군집별 ETF 선택 근거를 설명한 금융 데이터 분석
 
-[**Samsungfire Risk Management**](https://github.com/scnelMG/Samsungfire_Risk_Management)<br>
-유튜버의 규모·성장·댓글 감성·업로드 안정성을 점수화해 협업 후보 리스크 등급을 산출한 분석
+- [**Samsungfire Risk Management**](https://github.com/scnelMG/Samsungfire_Risk_Management)<br>
+  유튜버의 규모·성장·댓글 감성·업로드 안정성을 점수화해 협업 후보 리스크 등급을 산출한 분석
 
-[**KRX Stock Algorithm**](https://github.com/scnelMG/2023_KRX_Stock_Algorithm)<br>
-가격·재무·군집 피처로 15거래일 기대수익률을 예측해 Long–Short 종목 순위 제출 파일을 만든 경진대회 프로젝트
+- [**KRX Stock Algorithm**](https://github.com/scnelMG/2023_KRX_Stock_Algorithm)<br>
+  가격·재무·군집 피처로 15거래일 기대수익률을 예측해 Long–Short 종목 순위 제출 파일을 만든 경진대회 프로젝트
 
-[**ICT Mentoring Stock Prediction**](https://github.com/scnelMG/ict-mentoring-stock-prediction)<br>
-OHLCV·기술 지표·뉴스 키워드를 수집해 ARIMA·LSTM·GRU 실험 결과를 PyQt 화면에서 확인한 시계열 예측 프로토타입
+- [**ICT Mentoring Stock Prediction**](https://github.com/scnelMG/ict-mentoring-stock-prediction)<br>
+  OHLCV·기술 지표·뉴스 키워드를 수집해 ARIMA·LSTM·GRU 실험 결과를 PyQt 화면에서 확인한 시계열 예측 프로토타입
 
-**AI · 머신러닝**
+### AI · 머신러닝
 
-[**FSI AIxData Challenge**](https://github.com/scnelMG/FSI-AIxData-Challenge-2024)<br>
-극단적 불균형의 13개 Fraud_Type(이상 금융거래 유형)를 누수 없는 CTGAN 증강·교차검증·앙상블로 분류 · Private 0.702640 / 22위
+- [**FSI AIxData Challenge**](https://github.com/scnelMG/FSI-AIxData-Challenge-2024)<br>
+  극단적 불균형의 13개 Fraud_Type(이상 금융거래 유형)를 누수 없는 CTGAN 증강·교차검증·앙상블로 분류 · Private 0.702640 / 22위
 
-[**LG Aimers 5기**](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction)<br>
-제조 공정·장비·검사 피처의 품질 이상을 샘플링·CatBoost/RandomForest 블렌딩·임계값 비교로 탐지
+- [**LG Aimers 5기**](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction)<br>
+  제조 공정·장비·검사 피처의 품질 이상을 샘플링·CatBoost/RandomForest 블렌딩·임계값 비교로 탐지
 
-[**LG Aimers 6기**](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction)<br>
-난임 시술 기록의 결측·범주형·불균형을 처리해 임신 성공 확률을 예측 · 최고 공개 ROC-AUC 0.741430139
+- [**LG Aimers 6기**](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction)<br>
+  난임 시술 기록의 결측·범주형·불균형을 처리해 임신 성공 확률을 예측 · 최고 공개 ROC-AUC 0.741430139
 
-[**Manufacturing DX Matching**](https://github.com/scnelMG/manufacturing-dx-matching)<br>
-명시적 기술 수요가 없는 제조기업 설명을 기술 후보로 바꾸고, 특허·솔루션 임베딩 검색으로 공급기업을 추천
+- [**Manufacturing DX Matching**](https://github.com/scnelMG/manufacturing-dx-matching)<br>
+  명시적 기술 수요가 없는 제조기업 설명을 기술 후보로 바꾸고, 특허·솔루션 임베딩 검색으로 공급기업을 추천
 
-[**Busan Esports Data Analysis**](https://github.com/scnelMG/busan-esports-data-analysis)<br>
-League of Legends 경기·선수·챔피언 지표로 승패를 예측하고 모델 feature를 해석 · LightGBM 5-fold 정확도 0.8763
+- [**Busan Esports Data Analysis**](https://github.com/scnelMG/busan-esports-data-analysis)<br>
+  League of Legends 경기·선수·챔피언 지표로 승패를 예측하고 모델 feature를 해석 · LightGBM 5-fold 정확도 0.8763
 
 </details>
