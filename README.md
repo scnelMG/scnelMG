@@ -63,7 +63,7 @@ Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력
   SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one)
 - **2025.11 · 대상**<br>
   지산학 연계 산업수학 데이터 탐구 대회 · 부산시 무더위쉼터 최적 입지 연구
-- **2025.08 · 3등상**<br>
+- **2025.08 · 발제사 3등**<br>
   DIVE 글로벌 해커톤 · [BNK 고객 세분화 프로젝트](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 - **2023.11 · 장려상**<br>
   삼성화재 × POSTECH 리스크관리 경진대회 · [유튜버 협업 리스크 등급화](https://github.com/scnelMG/Samsungfire_Risk_Management)
