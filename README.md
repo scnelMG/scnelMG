@@ -33,7 +33,7 @@
 ### aivo · AI 발표·면접 코칭
 
 한국어 STT·필러 보완·발화 이벤트·점수 산출을 구현해 혼자 하는 연습의 피드백 공백을 보완했습니다.<br>
-[서비스 열기](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [외부 유저 테스트 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
+[서비스 열기](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [외부 사용자 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
 
 ### EZ-ONE · 취업 준비 워크스페이스
 
@@ -47,7 +47,7 @@ Chrome Extension 공고 저장, Notion 동기화, 서류 자동 입력으로 채
 
 ## 주요 수상
 
-- **2026.06 · 최우수상** · SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one)
+- **2026.06 · 최우수상** · SSAFY 1학기 프로젝트 경진대회 · [수상 이력](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
 - **2025.11 · 대상** · 지산학 연계 산업수학 데이터 탐구 대회 · [부산시 무더위쉼터 최적 입지 연구](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
 - **2025.08 · 3등상** · DIVE 글로벌 해커톤 · [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
