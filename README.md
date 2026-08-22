@@ -30,19 +30,19 @@
 
 ## 대표 프로젝트
 
-### aivo · 혼자 하는 발표·면접 연습의 피드백 공백을 줄이는 AI 코칭
+### aivo · AI 발표·면접 코칭
 
-한국어 STT·필러 보완·발화 이벤트·점수 산출을 반복 리포트로 연결했습니다.<br>
+발표·면접 연습의 음성·영상·답변을 분석해 반복 리포트로 제공하는 서비스입니다. **담당:** 한국어 STT·필러 보완·발화 이벤트·점수 산출.<br>
 [서비스 열기](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [외부 사용자 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
 
-### EZ-ONE · 흩어진 채용 준비 정보를 공고 단위로 통합하는 워크스페이스
+### EZ-ONE · 취업 준비 워크스페이스
 
-Chrome Extension 공고 저장, Notion 동기화, 서류 자동 입력으로 준비 맥락을 하나의 공고에 연결했습니다.<br>
+채용 공고 저장부터 지원서 작성까지 공고 단위로 관리하는 취업 준비 서비스입니다. **담당:** Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력.<br>
 [서비스 열기](https://ez-one.o-r.kr/) · [저장소](https://github.com/scnelMG/ez-one)
 
-### BNK Customer Strategy · 고객 수익 구조를 관리 전략으로 전환하는 금융 데이터 분석
+### BNK Customer Strategy · 금융 고객 세분화
 
-구간형 금융 데이터의 정합성을 점검·수치화하고, K-Means 기반 고객 세분화 입력 데이터셋을 구축했습니다.<br>
+이자·비이자이익 기준으로 고객을 세분화해 관리 전략을 제안한 금융 데이터 해커톤입니다. **담당:** 구간형 데이터 정합성 점검·수치화·K-Means 입력 데이터셋 구축.<br>
 [저장소](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
 ## 주요 수상
