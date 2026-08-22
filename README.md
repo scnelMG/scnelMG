@@ -30,34 +30,28 @@
 
 ## 대표 프로젝트
 
-### aivo · AI 발표·면접 코칭
+### aivo · 혼자 하는 발표·면접 연습의 피드백 공백을 줄이는 AI 코칭
 
-한국어 STT·필러 보완·발화 이벤트·점수 산출을 구현해 혼자 하는 연습의 피드백 공백을 보완했습니다.<br>
+한국어 STT·필러 보완·발화 이벤트·점수 산출을 반복 리포트로 연결했습니다.<br>
 [서비스 열기](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [외부 사용자 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
 
-### EZ-ONE · 취업 준비 워크스페이스
+### EZ-ONE · 흩어진 채용 준비 정보를 공고 단위로 통합하는 워크스페이스
 
-Chrome Extension 공고 저장, Notion 동기화, 서류 자동 입력으로 채용 준비 맥락을 공고 단위로 연결했습니다.<br>
+Chrome Extension 공고 저장, Notion 동기화, 서류 자동 입력으로 준비 맥락을 하나의 공고에 연결했습니다.<br>
 [서비스 열기](https://ez-one.o-r.kr/) · [저장소](https://github.com/scnelMG/ez-one)
 
-### BNK Customer Strategy · 금융 고객 세분화
+### BNK Customer Strategy · 고객 수익 구조를 관리 전략으로 전환하는 금융 데이터 분석
 
-구간형 금융 데이터의 정합성을 점검·수치화하고, K-Means 분석을 위한 입력 데이터셋을 구축했습니다.<br>
+구간형 금융 데이터의 정합성을 점검·수치화하고, K-Means 기반 고객 세분화 입력 데이터셋을 구축했습니다.<br>
 [저장소](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
 ## 주요 수상
 
-- **2026.06 · 최우수상** · SSAFY 1학기 프로젝트 경진대회 · [수상 이력](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
-- **2025.11 · 대상** · 지산학 연계 산업수학 데이터 탐구 대회 · [부산시 무더위쉼터 최적 입지 연구](https://app.notion.com/p/Park-MinGyu-35c7f120758f80d69c05c47f506475c4?source=copy_link)
+- **2026.06 · 최우수상** · SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one)
+- **2025.11 · 대상** · 지산학 연계 산업수학 데이터 탐구 대회 · 부산시 무더위쉼터 최적 입지 연구
 - **2025.08 · 3등상** · DIVE 글로벌 해커톤 · [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK)
-
-<details>
-<summary>기타 수상 2건</summary>
-
 - **2023.11 · 장려상** · 삼성화재 × POSTECH 리스크관리 경진대회 · [유튜버 협업 리스크 등급화](https://github.com/scnelMG/Samsungfire_Risk_Management)
 - **2023.09 · 대상** · 핀테크 연구 아이디어 경진대회 · [EveryHI 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance)
-
-</details>
 
 <details>
 <summary><strong>그 외 완료 프로젝트 10개 보기</strong></summary>
