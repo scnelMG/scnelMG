@@ -57,13 +57,22 @@
 
 [저장소](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
+### [부산시 무더위쉼터 최적 입지 분석](https://github.com/scnelMG/2025-busan-heatwave-shelter-mclp)
+
+- **프로젝트**<br>
+  부산시 100m 격자 수요와 기존 쉼터 접근성을 결합해 추가 설치 후보지를 도출한 산업수학 경진대회 프로젝트
+- **담당**<br>
+  공간 데이터 정합·엔트로피 가중 수요 점수·MCLP 최적 입지 모델링
+
+[저장소](https://github.com/scnelMG/2025-busan-heatwave-shelter-mclp)
+
 ## 수상
 
 - **2026.06 · 최우수상**<br>
   SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one)
 
 - **2025.11 · 대상**<br>
-  지산학 연계 산업수학 데이터 탐구 대회 · 부산시 무더위쉼터 최적 입지 연구
+  지산학 연계 산업수학 데이터 탐구 대회 · [부산시 무더위쉼터 최적 입지 분석](https://github.com/scnelMG/2025-busan-heatwave-shelter-mclp)
 
 - **2025.08 · 발제사 3등**<br>
   DIVE 글로벌 해커톤 · [BNK 고객 세분화 프로젝트](https://github.com/scnelMG/2025-dive-hackerton-BNK)
@@ -75,7 +84,7 @@
   핀테크 연구 아이디어 경진대회 · [EveryHI 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance)
 
 <details>
-<summary>그 외 완료 프로젝트 10개 보기</summary>
+<summary>그 외 완료 프로젝트 14개 보기</summary>
 
 <br />
 
@@ -83,6 +92,17 @@
 
 - [**EveryHI**](https://github.com/scnelMG/EveryHI-food-risk-insurance)<br>
   식단 사진에서 음식·영양 정보를 추출해 질병 위험 신호와 보험 보장 항목을 탐색한 인슈어테크 PoC
+
+### 공공 · 공간 데이터
+
+- [**RMR 리뷰 기반 한식 맛 평가 기준 수립**](https://github.com/scnelMG/2025-work-experience-rmr-review-analysis)<br>
+  네이버 스마트스토어의 공개 RMR 리뷰를 수집·전처리해 제품군별 한식 맛 표현 기준을 구조화한 미래내일 일경험 프로젝트
+
+- [**창원시 침수 위험 분석**](https://github.com/scnelMG/2022-changwon-bigdata-flood-risk-analysis)<br>
+  강수량·침수 이력·지형·배수 시설 접근성을 결합해 강수량 구간별 우선 검토 지역을 정리한 공공데이터 공간 분석
+
+- [**부산 소상공인들의 경기 체감과 전망**](https://github.com/scnelMG/2022-kostat-small-business-outlook)<br>
+  통계데이터 분석활용대회에서 카드소비·SNS·정책 자료를 바탕으로 부산 소상공인 경기 흐름을 검토한 안전 보관형 아카이브
 
 ### 금융 · 비즈니스 데이터
 
@@ -99,6 +119,10 @@
   OHLCV·기술 지표·뉴스 키워드를 수집해 ARIMA·LSTM·GRU 실험 결과를 PyQt 화면에서 확인한 시계열 예측 프로토타입
 
 ### AI · 머신러닝
+
+- [**소득 예측 AI 해커톤**](https://github.com/scnelMG/income-prediction-ai-hackathon)<br>
+  소득 예측 회귀 모델을 비교하고 CatBoost 기반 최종 제출 흐름을 정리한 AI 해커톤 프로젝트
+
 
 - [**FSI AIxData Challenge**](https://github.com/scnelMG/FSI-AIxData-Challenge-2024)<br>
   극단적 불균형의 13개 Fraud_Type(이상 금융거래 유형)를 누수 없는 CTGAN 증강·교차검증·앙상블로 분류 · Private 0.702640 / 22위
