@@ -30,40 +30,32 @@
 
 ## 대표 프로젝트
 
-### aivo
+### AIVO
 
-- **서비스**<br>
-  발표·면접 연습의 음성·영상·답변을 분석해 반복 리포트로 제공
-- **담당**<br>
-  한국어 STT·필러 보완·발화 이벤트·점수 산출
+발표·면접 연습의 음성·영상·답변을 분석해 반복 개선 리포트를 제공하는 AI 코칭 서비스입니다.
 
-[서비스 열기](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [외부 사용자 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
+**핵심 기여** 한국어 STT 품질 보완, 필러·발화 이벤트 분석, 점수 산출  
+[서비스](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [사용자 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
 
 ### EZ-ONE
 
-- **서비스**<br>
-  채용 공고 저장부터 지원서 작성까지 공고 단위로 관리하는 취업 준비 서비스
-- **담당**<br>
-  Chrome Extension 공고 저장·Notion 동기화·서류 자동 입력
+채용 공고 저장부터 지원서 작성까지, 공고 단위로 관리하는 취업 준비 서비스입니다.
 
-[서비스 열기](https://ez-one.o-r.kr/) · [저장소](https://github.com/scnelMG/ez-one)
+**핵심 기여** Chrome Extension 공고 저장, Notion 동기화, 지원 서류 자동 입력  
+[서비스](https://ez-one.o-r.kr/) · [저장소](https://github.com/scnelMG/ez-one)
 
-### BNK 고객 세분화 프로젝트
+### BNK 고객 세분화
 
-- **프로젝트**<br>
-  이자·비이자이익 기준으로 고객을 세분화해 관리 전략을 제안한 금융 데이터 해커톤
-- **담당**<br>
-  구간형 데이터 정합성 점검·수치화·K-Means 입력 데이터셋 구축
+이자·비이자이익을 기준으로 고객을 세분화하고, 고객군별 관리 전략을 제안한 금융 데이터 해커톤 프로젝트입니다.
 
+**핵심 기여** 구간형 데이터 정합성 점검·수치화, K-Means 입력 데이터셋 구축  
 [저장소](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
-### [부산시 무더위쉼터 최적 입지 분석](https://github.com/scnelMG/2025-busan-heatwave-shelter-mclp)
+### 부산시 무더위쉼터 최적 입지 분석
 
-- **프로젝트**<br>
-  부산시 100m 격자 수요와 기존 쉼터 접근성을 결합해 추가 설치 후보지를 도출한 산업수학 경진대회 프로젝트
-- **담당**<br>
-  공간 데이터 정합·엔트로피 가중 수요 점수·MCLP 최적 입지 모델링
+부산시 100m 격자 수요와 기존 쉼터 접근성을 결합해 추가 설치 후보지를 도출한 산업수학 경진대회 프로젝트입니다.
 
+**핵심 기여** 공간 데이터 정합, 엔트로피 가중 수요 점수 산정, MCLP 최적 입지 모델링  
 [저장소](https://github.com/scnelMG/2025-busan-heatwave-shelter-mclp)
 
 ## 수상
