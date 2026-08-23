@@ -76,7 +76,7 @@
   핀테크 연구 아이디어 경진대회 · [EveryHI 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance)
 
 <details>
-<summary>그 외 프로젝트 14개 보기 — 문제와 결과 중심</summary>
+<summary>그 외 프로젝트 16개 보기 — 문제와 결과 중심</summary>
 
 <br />
 
@@ -96,6 +96,10 @@
   - **프로젝트:** 강수량·침수 이력·지형·배수 시설 접근성을 결합해 강수량 변화에 따른 침수 위험을 살핀 공공데이터 공간 분석입니다.
   - **결과:** 강수량 구간별 우선 검토 지역을 도출했습니다.
 
+- [**부산 침수 예측·경로 AI**](https://github.com/scnelMG/2022-busan-flood-routing-ai)
+  - **프로젝트:** 침수 발생 예측을 활용해 침수 대비 대안 차량 경로를 검토한 프로젝트입니다.
+  - **결과:** 침수 예측 모델과 강화학습 모델링을 수행했습니다.
+
 - [**부산 소상공인들의 경기 체감과 전망**](https://github.com/scnelMG/2022-kostat-small-business-outlook)
   - **프로젝트:** 카드소비·SNS·정책 자료를 함께 분석해 부산 소상공인의 경기 체감과 전망을 검토한 통계데이터 분석활용대회 프로젝트입니다.
   - **결과:** 경기 흐름을 비교·검토할 수 있는 분석 아카이브를 남겼습니다.
@@ -113,6 +117,10 @@
 - [**KRX Stock Algorithm**](https://github.com/scnelMG/2023_KRX_Stock_Algorithm)
   - **프로젝트:** 가격·재무·군집 피처로 15거래일 기대수익률을 예측해 종목을 순위화한 경진대회 프로젝트입니다.
   - **결과:** Long–Short 전략용 종목 순위 제출 파일을 만들었습니다.
+
+- [**재무 부실 예측**](https://github.com/scnelMG/2023-financial-distress-prediction)
+  - **프로젝트:** 재무제표 데이터와 주석 텍스트를 바탕으로 재무 부실을 예측한 프로젝트입니다.
+  - **결과:** 데이터 수집, 데이터 전처리, 예측 모델링을 수행했습니다.
 
 - [**ICT Mentoring Stock Prediction**](https://github.com/scnelMG/ict-mentoring-stock-prediction)
   - **프로젝트:** OHLCV·기술 지표·뉴스 키워드를 수집해 ARIMA·LSTM·GRU 시계열 예측을 비교한 프로토타입입니다.
