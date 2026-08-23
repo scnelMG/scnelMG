@@ -76,59 +76,72 @@
   핀테크 연구 아이디어 경진대회 · [EveryHI 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance)
 
 <details>
-<summary>그 외 완료 프로젝트 14개 보기</summary>
+<summary>그 외 프로젝트 14개 보기 — 문제와 결과 중심</summary>
 
 <br />
 
-### 서비스 · 제품
+### 서비스 · 인슈어테크
 
-- [**EveryHI**](https://github.com/scnelMG/EveryHI-food-risk-insurance)<br>
-  식단 사진에서 음식·영양 정보를 추출해 질병 위험 신호와 보험 보장 항목을 탐색한 인슈어테크 PoC
+- [**EveryHI**](https://github.com/scnelMG/EveryHI-food-risk-insurance)
+  - **프로젝트:** 식단 사진에서 음식·영양 정보를 추출하고, 질병 위험 신호와 보험 보장 항목을 함께 탐색하게 한 인슈어테크 PoC입니다.
+  - **결과:** 이미지 입력부터 위험·보장 탐색까지 이어지는 서비스 흐름을 제안했습니다.
 
-### 공공 · 공간 데이터
+### 소비자 리서치 · 공공 데이터
 
-- [**RMR 리뷰 기반 한식 맛 평가 기준 수립**](https://github.com/scnelMG/2025-work-experience-rmr-review-analysis)<br>
-  네이버 스마트스토어의 공개 RMR 리뷰를 수집·전처리해 제품군별 한식 맛 표현 기준을 구조화한 미래내일 일경험 프로젝트
+- [**RMR 리뷰 기반 한식 맛 평가 기준 수립**](https://github.com/scnelMG/2025-work-experience-rmr-review-analysis)
+  - **프로젝트:** 네이버 스마트스토어의 공개 RMR 리뷰를 수집·전처리해 제품군별 한식 맛 표현을 분석한 미래내일 일경험 프로젝트입니다.
+  - **결과:** 제품군별 한식 맛 표현 기준을 구조화했습니다.
 
-- [**창원시 침수 위험 분석**](https://github.com/scnelMG/2022-changwon-bigdata-flood-risk-analysis)<br>
-  강수량·침수 이력·지형·배수 시설 접근성을 결합해 강수량 구간별 우선 검토 지역을 정리한 공공데이터 공간 분석
+- [**창원시 침수 위험 분석**](https://github.com/scnelMG/2022-changwon-bigdata-flood-risk-analysis)
+  - **프로젝트:** 강수량·침수 이력·지형·배수 시설 접근성을 결합해 강수량 변화에 따른 침수 위험을 살핀 공공데이터 공간 분석입니다.
+  - **결과:** 강수량 구간별 우선 검토 지역을 도출했습니다.
 
-- [**부산 소상공인들의 경기 체감과 전망**](https://github.com/scnelMG/2022-kostat-small-business-outlook)<br>
-  통계데이터 분석활용대회에서 카드소비·SNS·정책 자료를 바탕으로 부산 소상공인 경기 흐름을 검토한 안전 보관형 아카이브
+- [**부산 소상공인들의 경기 체감과 전망**](https://github.com/scnelMG/2022-kostat-small-business-outlook)
+  - **프로젝트:** 카드소비·SNS·정책 자료를 함께 분석해 부산 소상공인의 경기 체감과 전망을 검토한 통계데이터 분석활용대회 프로젝트입니다.
+  - **결과:** 경기 흐름을 비교·검토할 수 있는 분석 아카이브를 남겼습니다.
 
-### 금융 · 비즈니스 데이터
+### 금융 · 리스크 의사결정
 
-- [**Gen Pick**](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)<br>
-  ETF 수익·위험·보유 패턴을 군집화하고 XGBoost·SHAP으로 군집별 ETF 선택 근거를 설명한 금융 데이터 분석
+- [**Gen Pick**](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)
+  - **프로젝트:** ETF의 수익·위험·보유 패턴을 군집화하고 XGBoost·SHAP으로 군집별 선택 근거를 설명한 금융 데이터 분석입니다.
+  - **결과:** ETF 선택을 뒷받침하는 군집별 설명 지표를 정리했습니다.
 
-- [**Samsungfire Risk Management**](https://github.com/scnelMG/Samsungfire_Risk_Management)<br>
-  유튜버의 규모·성장·댓글 감성·업로드 안정성을 점수화해 협업 후보 리스크 등급을 산출한 분석
+- [**Samsungfire Risk Management**](https://github.com/scnelMG/Samsungfire_Risk_Management)
+  - **프로젝트:** 유튜버의 규모·성장·댓글 감성·업로드 안정성을 점수화해 협업 리스크를 평가한 분석 프로젝트입니다.
+  - **결과:** 협업 후보를 비교할 수 있는 리스크 등급을 산출했습니다.
 
-- [**KRX Stock Algorithm**](https://github.com/scnelMG/2023_KRX_Stock_Algorithm)<br>
-  가격·재무·군집 피처로 15거래일 기대수익률을 예측해 Long–Short 종목 순위 제출 파일을 만든 경진대회 프로젝트
+- [**KRX Stock Algorithm**](https://github.com/scnelMG/2023_KRX_Stock_Algorithm)
+  - **프로젝트:** 가격·재무·군집 피처로 15거래일 기대수익률을 예측해 종목을 순위화한 경진대회 프로젝트입니다.
+  - **결과:** Long–Short 전략용 종목 순위 제출 파일을 만들었습니다.
 
-- [**ICT Mentoring Stock Prediction**](https://github.com/scnelMG/ict-mentoring-stock-prediction)<br>
-  OHLCV·기술 지표·뉴스 키워드를 수집해 ARIMA·LSTM·GRU 실험 결과를 PyQt 화면에서 확인한 시계열 예측 프로토타입
+- [**ICT Mentoring Stock Prediction**](https://github.com/scnelMG/ict-mentoring-stock-prediction)
+  - **프로젝트:** OHLCV·기술 지표·뉴스 키워드를 수집해 ARIMA·LSTM·GRU 시계열 예측을 비교한 프로토타입입니다.
+  - **결과:** 모델별 실험 결과를 PyQt 화면에서 확인할 수 있는 분석 도구를 구현했습니다.
 
-### AI · 머신러닝
+- [**FSI AIxData Challenge**](https://github.com/scnelMG/FSI-AIxData-Challenge-2024)
+  - **프로젝트:** 극단적 불균형의 13개 이상 금융거래 유형을 CTGAN 증강·교차검증·앙상블로 분류한 금융 AI 경진대회 프로젝트입니다.
+  - **결과:** Private 점수 0.702640으로 22위를 기록했습니다.
 
-- [**소득 예측 AI 해커톤**](https://github.com/scnelMG/income-prediction-ai-hackathon)<br>
-  소득 예측 회귀 모델을 비교하고 CatBoost 기반 최종 제출 흐름을 정리한 AI 해커톤 프로젝트
+### 예측 · 매칭 AI
 
+- [**소득 예측 AI 해커톤**](https://github.com/scnelMG/income-prediction-ai-hackathon)
+  - **프로젝트:** 소득 예측 회귀 모델을 비교해 최종 모델을 선정한 AI 해커톤 프로젝트입니다.
+  - **결과:** CatBoost 기반의 최종 제출 흐름을 정리했습니다.
 
-- [**FSI AIxData Challenge**](https://github.com/scnelMG/FSI-AIxData-Challenge-2024)<br>
-  극단적 불균형의 13개 Fraud_Type(이상 금융거래 유형)를 누수 없는 CTGAN 증강·교차검증·앙상블로 분류 · Private 0.702640 / 22위
+- [**LG Aimers 5기**](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction)
+  - **프로젝트:** 제조 공정·장비·검사 피처로 Normal·AbNormal 품질 이상을 탐지한 제조 AI 프로젝트입니다.
+  - **결과:** 샘플링·모델 블렌딩·임계값 비교를 거친 품질 이상 탐지 흐름을 구축했습니다.
 
-- [**LG Aimers 5기**](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction)<br>
-  제조 공정·장비·검사 피처의 품질 이상을 샘플링·CatBoost/RandomForest 블렌딩·임계값 비교로 탐지
+- [**LG Aimers 6기**](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction)
+  - **프로젝트:** 난임 시술 기록의 결측·범주형·불균형을 처리해 임신 성공 확률을 예측한 의료 인접 ML 경진대회 프로젝트입니다.
+  - **결과:** 최고 공개 ROC-AUC 0.741430139를 기록했습니다.
 
-- [**LG Aimers 6기**](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction)<br>
-  난임 시술 기록의 결측·범주형·불균형을 처리해 임신 성공 확률을 예측 · 최고 공개 ROC-AUC 0.741430139
+- [**Manufacturing DX Matching**](https://github.com/scnelMG/manufacturing-dx-matching)
+  - **프로젝트:** 명시적 기술 수요가 없는 제조기업 설명을 기술 후보로 변환하고, 특허·솔루션을 임베딩 검색으로 연결한 추천 프로젝트입니다.
+  - **결과:** 수요기업과 공급기업을 연결하는 기술 후보 추천 흐름을 구현했습니다.
 
-- [**Manufacturing DX Matching**](https://github.com/scnelMG/manufacturing-dx-matching)<br>
-  명시적 기술 수요가 없는 제조기업 설명을 기술 후보로 바꾸고, 특허·솔루션 임베딩 검색으로 공급기업을 추천
-
-- [**Busan Esports Data Analysis**](https://github.com/scnelMG/busan-esports-data-analysis)<br>
-  League of Legends 경기·선수·챔피언 지표로 승패를 예측하고 모델 feature를 해석 · LightGBM 5-fold 정확도 0.8763
+- [**Busan Esports Data Analysis**](https://github.com/scnelMG/busan-esports-data-analysis)
+  - **프로젝트:** League of Legends 경기·선수·챔피언 지표로 승패를 예측하고 모델 피처를 해석한 이스포츠 데이터 분석입니다.
+  - **결과:** LightGBM 5-fold 정확도 0.8763을 기록했습니다.
 
 </details>
