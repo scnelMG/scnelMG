@@ -51,12 +51,19 @@
 **핵심 기여** 구간형 데이터 정합성 점검·수치화, K-Means 입력 데이터셋 구축  
 [저장소](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
-### 부산시 무더위쉼터 최적 입지 분석
+### Gen Pick
 
-부산시 100m 격자 수요와 기존 쉼터 접근성을 결합해 추가 설치 후보지를 도출한 산업수학 경진대회 프로젝트입니다.
+ETF의 수익·위험·보유 패턴을 군집화하고, XGBoost·SHAP과 생성형 AI로 선택 근거를 설명한 금융 데이터 프로젝트입니다.
 
-**핵심 기여** 공간 데이터 정합, 엔트로피 가중 수요 점수 산정, MCLP 최적 입지 모델링  
-[저장소](https://github.com/scnelMG/2025-busan-heatwave-shelter-mclp)
+**핵심 기여** ETF 보유 종목 생성형 AI 요약, 군집 일관성 검토, TF-IDF·XGBoost·SHAP 기반 설명 설계  
+[저장소](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)
+
+### 제조업 DX 매칭
+
+명시적 수요가 없는 제조기업 설명을 기술 후보로 변환하고, 임베딩 검색으로 공급기업을 추천한 산학협력 프로젝트입니다.
+
+**핵심 기여** 팀장 · 문제 정의 전환 · KR-SBERT/FAISS 검색·기업 재정렬 흐름 설계  
+[저장소](https://github.com/scnelMG/manufacturing-dx-matching)
 
 ## 수상
 
@@ -76,7 +83,7 @@
   핀테크 연구 아이디어 경진대회 · [EveryHI 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance)
 
 <details>
-<summary>그 외 프로젝트 16개 보기 — 문제와 결과 중심</summary>
+<summary>그 외 프로젝트 16개 보기</summary>
 
 <br />
 
