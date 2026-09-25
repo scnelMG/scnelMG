@@ -30,40 +30,52 @@
 
 ## 대표 프로젝트
 
+AI 서비스 구현은 **AIVO·EZ-ONE**, 금융 데이터 분석은 **BNK·Gen Pick**, 검색·추천 설계는 **제조업 DX 매칭**에서 확인할 수 있습니다.
+
 ### AIVO
 
 발표·면접 연습의 음성·영상·답변을 분석해 반복 개선 리포트를 제공하는 AI 코칭 서비스입니다.
 
 **핵심 기여** 한국어 STT 품질 보완, 필러·발화 이벤트 분석, 점수 산출  
-[서비스](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [사용자 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md)
+[서비스](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [사용자 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md) · [담당 구현 코드](https://github.com/scnelMG/aivo-portfolio/tree/main/backend-fastapi-main/models/filer/src)
+
+**검증** RTX 4050 Laptop GPU의 단일 한국어 음성 스모크 실행에서 전사 RTF 0.0751을 기록했습니다. [실행 조건·한계](https://github.com/scnelMG/aivo-portfolio#ai-음성-분석-구현)
 
 ### EZ-ONE
 
 채용 공고 저장부터 지원서 작성까지, 공고 단위로 관리하는 취업 준비 서비스입니다.
 
 **핵심 기여** Chrome Extension 공고 저장, Notion 동기화, 지원 서류 자동 입력  
-[서비스](https://ez-one.o-r.kr/) · [저장소](https://github.com/scnelMG/ez-one)
+[서비스](https://ez-one.o-r.kr/) · [저장소](https://github.com/scnelMG/ez-one) · [담당 역할](https://github.com/scnelMG/ez-one#팀과-담당-역할) · [확장 프로그램 코드](https://github.com/scnelMG/ez-one/tree/main/extension/src)
+
+**성과** SSAFY 1학기 프로젝트 경진대회 최우수상. [요구사항·검증 추적](https://github.com/scnelMG/ez-one/blob/main/docs/23_traceability.md)
 
 ### BNK 고객 세분화
 
 이자·비이자이익을 기준으로 고객을 세분화하고, 고객군별 관리 전략을 제안한 금융 데이터 해커톤 프로젝트입니다.
 
 **핵심 기여** 구간형 데이터 정합성 점검·수치화, K-Means 입력 데이터셋 구축  
-[저장소](https://github.com/scnelMG/2025-dive-hackerton-BNK)
+[저장소](https://github.com/scnelMG/2025-dive-hackerton-BNK) · [전처리·모델링 근거](https://github.com/scnelMG/2025-dive-hackerton-BNK/blob/main/docs/model-validation.md)
+
+**성과** 4인 팀·24시간 해커톤에서 BNK부산은행 발제사 3등. 고객 원본 데이터는 비공개이며, 공개 코드와 제출물로 분석 구조를 확인할 수 있습니다.
 
 ### Gen Pick
 
 ETF의 수익·위험·보유 패턴을 군집화하고, XGBoost·SHAP과 생성형 AI로 선택 근거를 설명한 금융 데이터 프로젝트입니다.
 
 **핵심 기여** ETF 보유 종목 생성형 AI 요약, 군집 일관성 검토, TF-IDF·XGBoost·SHAP 기반 설명 설계  
-[저장소](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)
+[저장소](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) · [개인 기여·기술적 판단](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick/blob/main/docs/portfolio-summary.md) · [분석 결과](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick/tree/main/results)
+
+**설계** 보유 비중 상위 30개 종목으로 요약 입력 크기를 제어하고, 군집 일관성으로 생성 요약을 검토했습니다.
 
 ### 제조업 DX 매칭
 
 명시적 수요가 없는 제조기업 설명을 기술 후보로 변환하고, 임베딩 검색으로 공급기업을 추천한 산학협력 프로젝트입니다.
 
 **핵심 기여** 팀장 · 문제 정의 전환 · KR-SBERT/FAISS 검색·기업 재정렬 흐름 설계  
-[저장소](https://github.com/scnelMG/manufacturing-dx-matching)
+[저장소](https://github.com/scnelMG/manufacturing-dx-matching) · [매칭 코드](https://github.com/scnelMG/manufacturing-dx-matching/tree/main/notebooks) · [실제 결과](https://github.com/scnelMG/manufacturing-dx-matching/tree/main/results)
+
+**검증** 수요기업 2곳의 매칭 결과를 HTML로 정리했습니다. 정답 라벨 기반 추천 정확도는 아직 평가하지 않았습니다.
 
 ## 수상
 
@@ -83,7 +95,7 @@ ETF의 수익·위험·보유 패턴을 군집화하고, XGBoost·SHAP과 생성
   핀테크 연구 아이디어 경진대회 · [EveryHI 제안](https://github.com/scnelMG/EveryHI-food-risk-insurance)
 
 <details>
-<summary>그 외 프로젝트 16개 보기</summary>
+<summary>그 외 프로젝트 14개 보기</summary>
 
 <br />
 
@@ -112,10 +124,6 @@ ETF의 수익·위험·보유 패턴을 군집화하고, XGBoost·SHAP과 생성
   - **결과:** 경기 흐름을 비교·검토할 수 있는 분석 아카이브를 남겼습니다.
 
 ### 금융 · 리스크 의사결정
-
-- [**Gen Pick**](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)
-  - **프로젝트:** ETF의 수익·위험·보유 패턴을 군집화하고 XGBoost·SHAP으로 군집별 선택 근거를 설명한 금융 데이터 분석입니다.
-  - **결과:** ETF 선택을 뒷받침하는 군집별 설명 지표를 정리했습니다.
 
 - [**Samsungfire Risk Management**](https://github.com/scnelMG/Samsungfire_Risk_Management)
   - **프로젝트:** 유튜버의 규모·성장·댓글 감성·업로드 안정성을 점수화해 협업 리스크를 평가한 분석 프로젝트입니다.
@@ -150,10 +158,6 @@ ETF의 수익·위험·보유 패턴을 군집화하고, XGBoost·SHAP과 생성
 - [**LG Aimers 6기**](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction)
   - **프로젝트:** 난임 시술 기록의 결측·범주형·불균형을 처리해 임신 성공 확률을 예측한 의료 인접 ML 경진대회 프로젝트입니다.
   - **결과:** 최고 공개 ROC-AUC 0.741430139를 기록했습니다.
-
-- [**Manufacturing DX Matching**](https://github.com/scnelMG/manufacturing-dx-matching)
-  - **프로젝트:** 명시적 기술 수요가 없는 제조기업 설명을 기술 후보로 변환하고, 특허·솔루션을 임베딩 검색으로 연결한 추천 프로젝트입니다.
-  - **결과:** 수요기업과 공급기업을 연결하는 기술 후보 추천 흐름을 구현했습니다.
 
 - [**Busan Esports Data Analysis**](https://github.com/scnelMG/busan-esports-data-analysis)
   - **프로젝트:** League of Legends 경기·선수·챔피언 지표로 승패를 예측하고 모델 피처를 해석한 이스포츠 데이터 분석입니다.
