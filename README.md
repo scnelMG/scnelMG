@@ -22,40 +22,51 @@
 
 ## 대표 프로젝트
 
-프로젝트 이름을 누르면 코드와 상세 설명을 볼 수 있습니다.
-
 ### [aivo](https://github.com/scnelMG/aivo-portfolio)
 
-**2026.07–08 · AI 발표·면접 코칭 서비스**<br />
-한국어 STT, 짧은 필러 보완, 발화 이벤트 분석과 점수 산출을 담당했습니다. 직접 라벨링한 발표 평가에서 탐지 정확도 **모델 A 5.5% → aivo 76%**, 발화 분석 시간 **모델 B 41.5초 → aivo 4.3초**를 기록했습니다.
+2026.07–08 · AI 발표·면접 코칭 서비스
+
+- **담당:** 한국어 음성 인식(STT), 짧은 필러 보완, 발화 이벤트 분석과 점수 산출.
+- **탐지 정확도:** aivo **76%** · 비교 모델 A 5.5%.
+- **발화 분석 시간:** aivo **4.3초** · 비교 모델 B 41.5초.
+
+두 지표는 직접 라벨링한 발표 평가 결과이며, 비교 모델 표기는 발표자료를 따릅니다.
 
 [서비스](https://aivo.ai.kr/) · [발표·평가 자료](https://ssafy-pjt-presentation-source.vercel.app/)
 
 ### [EZ-ONE](https://github.com/scnelMG/ez-one)
 
-**2026.01–06 · 공고 단위 취업 준비 서비스**<br />
-Chrome Extension 공고 저장·지원 서류 입력 보조, 로그인·온보딩, Notion 연동을 담당했습니다. **SSAFY 1학기 프로젝트 경진대회 최우수상**을 받았습니다.
+2026.01–06 · 채용 공고별 지원 준비 서비스
+
+- **담당:** Chrome 확장 프로그램의 공고 저장·지원 서류 입력 보조, 로그인·온보딩, Notion 연동.
+- **성과:** SSAFY 1학기 프로젝트 경진대회 **최우수상**.
 
 [서비스](https://ez-one.o-r.kr/) · [확장 프로그램 코드](https://github.com/scnelMG/ez-one/tree/main/extension/src)
 
 ### [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
-**2025.08 · 금융 고객 데이터 분석**<br />
-구간형 데이터의 정합성을 점검하고 수치화해 이자·비이자 수익 축의 K-Means 군집화를 수행했습니다. 4인 팀·24시간 해커톤에서 **BNK부산은행 발제사 3등**을 기록했습니다.
+2025.08 · 금융 고객 데이터 분석
+
+- **담당:** 구간형 데이터의 정합성 점검·수치화, 이자 수익과 비이자 수익 기준의 K-Means 고객 군집화.
+- **성과:** 4인 팀·24시간 해커톤에서 **BNK부산은행 발제사 3등**.
 
 [분석·검증 근거](https://github.com/scnelMG/2025-dive-hackerton-BNK/blob/main/docs/model-validation.md)
 
 ### [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)
 
-**2024 · ETF 군집화와 생성형 AI 설명**<br />
-보유 비중 상위 30개 종목의 AI 요약, 군집 일관성 검토, TF-IDF·XGBoost·SHAP을 활용한 설명 근거를 설계했습니다.
+2024 · ETF 군집화와 생성형 AI 설명
+
+- **담당:** ETF 보유 비중 상위 30개 종목의 AI 요약과 요약·군집 간 일관성 검토, TF-IDF·XGBoost·SHAP 기반 설명 근거 설계.
+- **산출물:** 군집별 특성 비교와 종목 설명의 주요 키워드 분석 결과.
 
 [분석 결과](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick/tree/main/results)
 
 ### [제조업 DX 매칭](https://github.com/scnelMG/manufacturing-dx-matching)
 
-**2025.06–07 · 기업 설명 기반 기술·공급기업 검색**<br />
-팀장으로서 기업 간 직접 비교를 기술 검색 후 기업 추천으로 전환했습니다. KR-SBERT·FAISS 검색과 기업별 재정렬을 설계하고, 수요기업 2곳의 결과를 검토했습니다.
+2025.06–07 · 기업 설명 기반 기술·공급기업 검색
+
+- **담당:** 팀장으로서 기업끼리 직접 비교하던 방식을 기술 검색 후 공급기업 추천으로 전환. KR-SBERT·FAISS 검색과 기업별 재정렬 설계.
+- **산출물:** 수요기업 **2곳**의 기술 후보·공급기업 추천 결과와 검토용 HTML.
 
 [매칭 결과](https://github.com/scnelMG/manufacturing-dx-matching/tree/main/results)
 
@@ -67,33 +78,32 @@ Chrome Extension 공고 저장·지원 서류 입력 보조, 로그인·온보�
 - **2023.11 · 장려상** — 삼성화재 × POSTECH 리스크관리 경진대회 · [유튜버 협업 리스크](https://github.com/scnelMG/Samsungfire_Risk_Management)
 - **2023.09 · 대상** — 핀테크 연구 아이디어 경진대회 · [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance)
 
+## 추가 프로젝트
+
 <details>
-<summary>그 외 프로젝트 14개 보기</summary>
+<summary>분야별 프로젝트 14개 보기</summary>
 
-### 서비스 · 인슈어테크
-
-- [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance) — 식단 사진의 음식·영양 정보와 질병 위험 신호·보험 보장 탐색을 연결한 PoC.
-
-### 소비자 리서치 · 공공 데이터
+### 공공 · 소비자 데이터
 
 - [RMR 리뷰 기반 한식 맛 분석](https://github.com/scnelMG/2025-work-experience-rmr-review-analysis) — 공개 리뷰 수집·전처리와 제품군별 맛 표현 기준 정리.
 - [창원시 침수 위험 분석](https://github.com/scnelMG/2022-changwon-bigdata-flood-risk-analysis) — 강수량·지형·배수 접근성을 결합해 강수량 구간별 우선 검토 지역 도출.
 - [부산 침수 예측·경로 AI](https://github.com/scnelMG/2022-busan-flood-routing-ai) — 침수 예측과 강화학습을 활용한 대안 차량 경로 검토.
 - [부산 소상공인 경기 체감·전망](https://github.com/scnelMG/2022-kostat-small-business-outlook) — 카드소비·SNS·정책 자료를 결합한 경기 흐름 분석.
 
-### 금융 · 리스크 의사결정
+### 금융 · 보험
 
-- [Samsungfire Risk Management](https://github.com/scnelMG/Samsungfire_Risk_Management) — 유튜버 성장·댓글 감성·업로드 안정성 기반 협업 리스크 등급화.
-- [KRX Stock Algorithm](https://github.com/scnelMG/2023_KRX_Stock_Algorithm) — 가격·재무·군집 피처로 15거래일 기대수익률을 예측하고 Long–Short 종목 순위 제출.
+- [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance) — 식단 사진의 음식·영양 정보와 질병 위험 신호, 보험 보장 탐색을 연결한 개념 검증(PoC).
+- [유튜버 협업 리스크](https://github.com/scnelMG/Samsungfire_Risk_Management) — 유튜버 성장·댓글 감성·업로드 안정성 기반 협업 리스크 등급화.
+- [KRX 주식 수익률 예측](https://github.com/scnelMG/2023_KRX_Stock_Algorithm) — 가격·재무·군집 특성으로 15거래일 기대수익률을 예측하고 Long–Short 종목 순위 제출.
 - [재무 부실 예측](https://github.com/scnelMG/2023-financial-distress-prediction) — 재무제표와 주석 텍스트의 수집·전처리·예측 모델링.
-- [ICT Mentoring Stock Prediction](https://github.com/scnelMG/ict-mentoring-stock-prediction) — OHLCV·기술 지표·뉴스 기반 ARIMA·LSTM·GRU 비교와 PyQt 결과 화면 구현.
-- [FSI AIxData Challenge](https://github.com/scnelMG/FSI-AIxData-Challenge-2024) — 13개 이상 금융거래 유형 분류. CTGAN·교차검증·앙상블 적용, Private 점수 0.702640·22위.
+- [ICT 멘토링 주가 예측](https://github.com/scnelMG/ict-mentoring-stock-prediction) — 주가·거래량·기술 지표·뉴스를 활용한 ARIMA·LSTM·GRU 비교와 PyQt 결과 화면 구현.
+- [FSI AIxData Challenge](https://github.com/scnelMG/FSI-AIxData-Challenge-2024) — 이상 금융거래 13개 유형 분류와 CTGAN 합성 데이터 생성. **Private 종합 점수 0.702640 · 22위**.
 
-### 예측 AI
+### 예측 모델링
 
 - [소득 예측 AI 해커톤](https://github.com/scnelMG/income-prediction-ai-hackathon) — 회귀 모델 비교와 CatBoost 최종 제출.
 - [LG Aimers 5기](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction) — 제조 품질 이상 탐지의 샘플링·모델 블렌딩·임계값 비교.
-- [LG Aimers 6기](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction) — 난임 시술 데이터 기반 임신 성공 확률 예측. 최고 공개 ROC-AUC 0.741430139.
-- [Busan Esports Data Analysis](https://github.com/scnelMG/busan-esports-data-analysis) — LoL 경기 승패 예측과 피처 해석. LightGBM 5-fold 정확도 0.8763.
+- [LG Aimers 6기](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction) — 난임 시술 데이터 기반 임신 성공 확률 예측. **공개 제출 최고 ROC-AUC 약 0.7414**.
+- [부산 이스포츠 데이터 분석](https://github.com/scnelMG/busan-esports-data-analysis) — LoL 경기 승패 예측과 주요 변수 해석. **LightGBM 5-fold 교차검증 평균 정확도 0.8763**.
 
 </details>
