@@ -39,7 +39,7 @@ AI 서비스 구현은 **aivo·EZ-ONE**, 금융 데이터 분석은 **BNK·Gen P
 **핵심 기여** 한국어 STT 품질 보완, 필러·발화 이벤트 분석, 점수 산출  
 [서비스](https://aivo.ai.kr/) · [저장소](https://github.com/scnelMG/aivo-portfolio) · [사용자 피드백 17건](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/user-testing.md) · [담당 구현 코드](https://github.com/scnelMG/aivo-portfolio/tree/main/backend-fastapi-main/models/filer/src)
 
-**검증** RTX 4050 Laptop GPU의 단일 한국어 음성 스모크 실행에서 전사 RTF 0.0751을 기록했습니다. [실행 조건·한계](https://github.com/scnelMG/aivo-portfolio#ai-음성-분석-구현)
+**검증** 직접 라벨링한 발표 평가에서 탐지 정확도 5.5% → 76%, 발화 분석 시간 41.5초 → 4.3초를 기록했습니다. [발표 평가·측정 범위](https://github.com/scnelMG/aivo-portfolio#직접-라벨링한-발표-평가)
 
 ### EZ-ONE
 
