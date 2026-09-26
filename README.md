@@ -43,6 +43,15 @@
 
 [서비스](https://ez-one.o-r.kr/) · [확장 프로그램 코드](https://github.com/scnelMG/ez-one/tree/main/extension/src)
 
+### [공연모아](https://performance-moa.vercel.app/)
+
+2026.09–현재 · 전국 공연 탐색 서비스
+
+- **구현:** 지역·장르·검색어별 공연 탐색, 신규 공연 알림, 기기 간 알림 읽음 상태 동기화.
+- **서비스:** 예매처 **4곳**의 공연을 전국 **17개 시·도** 기준으로 모아보고 예매처로 연결.
+
+[서비스](https://performance-moa.vercel.app/) · 소스 비공개
+
 ### [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
 2025.08 · 금융 고객 데이터 분석
