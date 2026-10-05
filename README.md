@@ -20,6 +20,35 @@
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white" alt="Vue.js" />
 </p>
 
+## 작업의 중심
+
+| 분야 | 다루는 문제 | 구현·검증 사례 |
+| --- | --- | --- |
+| AI 서비스 | 모델 출력을 사용자가 이해할 수 있는 피드백으로 연결 | [aivo 음성 분석](https://github.com/scnelMG/aivo-portfolio#ai-음성-분석-구현) |
+| 검색·추천 | 데이터의 표현과 검색 단위를 문제에 맞게 설계 | [제조업 DX 매칭](https://github.com/scnelMG/manufacturing-dx-matching) |
+| 금융 데이터 | 정합성 점검부터 군집·설명 근거까지 연결 | [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK) · [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) |
+
+## 화면으로 보는 서비스
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/scnelMG/aivo-portfolio"><img src="https://raw.githubusercontent.com/scnelMG/aivo-portfolio/main/assets/features/framed/presentation-live-frame.png" alt="aivo 실제 발표 코칭 화면" /></a>
+<strong>aivo · AI 발표·면접 코칭</strong><br />
+한국어 발화의 필러·반복·쉼을 분석하고 다음 연습의 근거로 연결합니다.<br />
+<a href="https://github.com/scnelMG/aivo-portfolio">구현·평가 보기 →</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/scnelMG/daebbang-portfolio"><img src="https://raw.githubusercontent.com/scnelMG/daebbang-portfolio/main/assets/screenshots/tray.jpg" alt="대빵 실제 React 화면의 빵·취향 선택, 합성 데이터 미리보기" /></a>
+<strong>대빵 · 취향 기반 빵집 추천</strong><br />
+빵과 취향 태그를 고르면 리뷰 집계를 바탕으로 빵집을 추천합니다.<br />
+<a href="https://github.com/scnelMG/daebbang-portfolio">화면·추천 설계 보기 →</a>
+</td>
+</tr>
+</table>
+
+<sub>aivo는 서비스 화면, 대빵은 공개 React 소스의 로컬 실행 화면입니다. 대빵 캡처에는 가상 매장·샘플 데이터를 사용했습니다.</sub>
+
 ## 대표 프로젝트
 
 ### [aivo](https://github.com/scnelMG/aivo-portfolio)
@@ -33,6 +62,16 @@
 두 지표는 직접 라벨링한 발표 평가 결과입니다.
 
 [서비스](https://aivo.ai.kr/) · [발표·평가 자료](https://ssafy-pjt-presentation-source.vercel.app/)
+
+### [대빵](https://github.com/scnelMG/daebbang-portfolio)
+
+2026.08–10 · SSAFY 빅데이터 분산 팀 프로젝트 · 취향 기반 대전 빵집 추천
+
+- **팀 구현:** 리뷰 수집·LLM 태그 분류·Spark 점수 집계와 빵·취향 선택 UI를 연결한 추천 서비스.
+- **설계 사례:** 점수 후보가 없는 조합에 탐색 슬롯을 제공하고, 온라인 추천과 배치 계산을 분리.
+- **공개 자료:** 실제 UI 캡처 5장, 핵심 소스·스키마, 합성 데이터 로컬 미리보기. 공개본 FE 테스트 **124개 통과**.
+
+[서비스 화면](https://github.com/scnelMG/daebbang-portfolio#서비스-화면) · [추천 설계](https://github.com/scnelMG/daebbang-portfolio/blob/main/docs/architecture.md) · [공개 범위](https://github.com/scnelMG/daebbang-portfolio/blob/main/SOURCE_SNAPSHOT.md)
 
 ### [EZ-ONE](https://github.com/scnelMG/ez-one)
 
