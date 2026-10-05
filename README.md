@@ -1,122 +1,57 @@
-<h1 align="center">박민규</h1>
+# 박민규
 
-<p align="center">
-  <strong>Financial Data &amp; AI Service Developer</strong><br />
-  금융 데이터를 분석하고, AI를 실제 사용 흐름으로 연결합니다.
-</p>
+금융 데이터를 분석하고 AI 서비스를 개발합니다.
 
-<p align="center">
-  <a href="https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4">이력서</a> ·
-  <a href="https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/">LinkedIn</a> ·
-  <a href="mailto:qkralsrb4407@gmail.com">이메일</a>
-</p>
+[이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white" alt="Vue.js" />
-</p>
+Python · PyTorch · Java · Spring Boot · MySQL · Vue.js
 
-## 작업의 중심
-
-| 분야 | 다루는 문제 | 구현·검증 사례 |
-| --- | --- | --- |
-| AI 서비스 | 모델 출력을 사용자가 이해할 수 있는 피드백으로 연결 | [aivo 음성 분석](https://github.com/scnelMG/aivo-portfolio#ai-음성-분석-구현) |
-| 검색·추천 | 데이터의 표현과 검색 단위를 문제에 맞게 설계 | [제조업 DX 매칭](https://github.com/scnelMG/manufacturing-dx-matching) |
-| 금융 데이터 | 정합성 점검부터 군집·설명 근거까지 연결 | [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK) · [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) |
-
-## 화면으로 보는 서비스
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/scnelMG/aivo-portfolio"><img src="https://raw.githubusercontent.com/scnelMG/aivo-portfolio/main/assets/features/framed/presentation-live-frame.png" alt="aivo 실제 발표 코칭 화면" /></a>
-<strong>aivo · AI 발표·면접 코칭</strong><br />
-한국어 발화의 필러·반복·쉼을 분석하고 다음 연습의 근거로 연결합니다.<br />
-<a href="https://github.com/scnelMG/aivo-portfolio">구현·평가 보기 →</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/scnelMG/daebbang-portfolio"><img src="https://raw.githubusercontent.com/scnelMG/daebbang-portfolio/main/assets/screenshots/tray.jpg" alt="대빵 실제 React 화면의 빵·취향 선택, 합성 데이터 미리보기" /></a>
-<strong>대빵 · 취향 기반 빵집 추천</strong><br />
-빵과 취향 태그를 고르면 리뷰 집계를 바탕으로 빵집을 추천합니다.<br />
-<a href="https://github.com/scnelMG/daebbang-portfolio">화면·추천 설계 보기 →</a>
-</td>
-</tr>
-</table>
-
-<sub>aivo는 서비스 화면, 대빵은 공개 React 소스의 로컬 실행 화면입니다. 대빵 캡처에는 가상 매장·샘플 데이터를 사용했습니다.</sub>
-
-## 대표 프로젝트
+## 주요 프로젝트
 
 ### [aivo](https://github.com/scnelMG/aivo-portfolio)
 
 2026.07–08 · AI 발표·면접 코칭 서비스
 
-- **담당:** 한국어 음성 인식(STT), 짧은 필러 보완, 발화 이벤트 분석과 점수 산출.
-- **탐지 정확도:** aivo **76%** · OpenAI `whisper-1` 5.5%.
-- **발화 분석 시간:** aivo **4.3초** · 한국어 발화 데이터로 LoRA 학습한 모델 41.5초.
-
-두 지표는 직접 라벨링한 발표 평가 결과입니다.
+한국어 음성 인식(STT), 짧은 필러 보완, 발화 이벤트 분석과 점수 계산을 맡았습니다.
+직접 라벨링한 발표 평가에서 **탐지 정확도 76%**, **발화 분석 시간 4.3초**를 기록했습니다. 비교 결과는 각각 OpenAI `whisper-1` 5.5%, 한국어 발화 데이터로 LoRA 학습한 모델 41.5초입니다.
 
 [서비스](https://aivo.ai.kr/) · [발표·평가 자료](https://ssafy-pjt-presentation-source.vercel.app/)
-
-### [대빵](https://github.com/scnelMG/daebbang-portfolio)
-
-2026.08–10 · SSAFY 빅데이터 분산 팀 프로젝트 · 취향 기반 대전 빵집 추천
-
-- **팀 구현:** 리뷰 수집·LLM 태그 분류·Spark 점수 집계와 빵·취향 선택 UI를 연결한 추천 서비스.
-- **설계 사례:** 점수 후보가 없는 조합에 탐색 슬롯을 제공하고, 온라인 추천과 배치 계산을 분리.
-- **공개 자료:** 실제 UI 캡처 5장, 핵심 소스·스키마, 합성 데이터 로컬 미리보기. 공개본 FE 테스트 **124개 통과**.
-
-[서비스 화면](https://github.com/scnelMG/daebbang-portfolio#서비스-화면) · [추천 설계](https://github.com/scnelMG/daebbang-portfolio/blob/main/docs/architecture.md) · [공개 범위](https://github.com/scnelMG/daebbang-portfolio/blob/main/SOURCE_SNAPSHOT.md)
 
 ### [EZ-ONE](https://github.com/scnelMG/ez-one)
 
 2026.01–06 · 채용 공고별 지원 준비 서비스
 
-- **담당:** Chrome 확장 프로그램의 공고 저장·지원 서류 입력 보조, 로그인·온보딩, Notion 연동.
-- **성과:** SSAFY 1학기 프로젝트 경진대회 **최우수상**.
+Chrome 확장 프로그램의 공고 저장·지원 서류 입력 보조, 로그인·온보딩, Notion 연동을 맡았습니다.
+**SSAFY 1학기 프로젝트 경진대회 최우수상**을 받았습니다.
 
 [서비스](https://ez-one.o-r.kr/) · [확장 프로그램 코드](https://github.com/scnelMG/ez-one/tree/main/extension/src)
-
-### [공연모아](https://performance-moa.vercel.app/)
-
-2026.09–현재 · 전국 공연 탐색 서비스
-
-- **구현:** 지역·장르·검색어별 공연 탐색, 신규 공연 알림, 기기 간 알림 읽음 상태 동기화.
-- **서비스:** 예매처 **4곳**의 공연을 전국 **17개 시·도** 기준으로 모아보고 예매처로 연결.
-
-[서비스](https://performance-moa.vercel.app/) · 소스 비공개
 
 ### [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK)
 
 2025.08 · 금융 고객 데이터 분석
 
-- **담당:** 구간형 데이터의 정합성 점검·수치화, 이자 수익과 비이자 수익 기준의 K-Means 고객 군집화.
-- **성과:** 4인 팀·24시간 해커톤에서 **BNK부산은행 발제사 3등**.
+구간형 고객 데이터의 정합성을 점검하고 수치화했습니다. 이자 수익과 비이자 수익을 기준으로 K-Means로 고객을 군집화했습니다.
+4인 팀·24시간 해커톤에서 **BNK부산은행 발제사 3등**을 받았습니다.
 
-[분석·검증 근거](https://github.com/scnelMG/2025-dive-hackerton-BNK/blob/main/docs/model-validation.md)
-
-### [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)
-
-2024 · ETF 군집화와 생성형 AI 설명
-
-- **담당:** ETF 보유 비중 상위 30개 종목의 AI 요약과 요약·군집 간 일관성 검토, TF-IDF·XGBoost·SHAP 기반 설명 근거 설계.
-- **산출물:** 군집별 특성 비교와 종목 설명의 주요 키워드 분석 결과.
-
-[분석 결과](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick/tree/main/results)
+[분석 결과](https://github.com/scnelMG/2025-dive-hackerton-BNK/blob/main/docs/model-validation.md)
 
 ### [제조업 DX 매칭](https://github.com/scnelMG/manufacturing-dx-matching)
 
-2025.06–07 · 기업 설명 기반 기술·공급기업 검색
+2025.06–07 · 기업 설명을 이용한 기술·공급기업 검색
 
-- **담당:** 팀장으로서 기업끼리 직접 비교하던 방식을 기술 검색 후 공급기업 추천으로 전환. KR-SBERT·FAISS 검색과 기업별 재정렬 설계.
-- **산출물:** 수요기업 **2곳**의 기술 후보·공급기업 추천 결과와 검토용 HTML.
+팀장을 맡아 기업끼리 직접 비교하던 방식을 기술 검색 후 공급기업을 추천하는 방식으로 바꿨습니다.
+KR-SBERT·FAISS 검색과 기업별 순위 재정렬을 설계하고, 수요기업 **2곳**의 기술 후보·공급기업 추천 결과를 HTML로 정리했습니다.
 
-[매칭 결과](https://github.com/scnelMG/manufacturing-dx-matching/tree/main/results)
+[추천 결과](https://github.com/scnelMG/manufacturing-dx-matching/tree/main/results)
+
+### [대빵](https://github.com/scnelMG/daebbang-portfolio)
+
+2026.08–10 · 대전 빵집 추천 서비스 · SSAFY 빅데이터 분산 팀 프로젝트
+
+빵과 취향 태그를 고르면 리뷰를 바탕으로 빵집을 추천합니다. 팀에서 리뷰 수집, LLM 태그 분류, Spark 점수 집계와 추천 UI를 구현했습니다.
+추천 API는 미리 계산한 점수를 조회합니다. 점수 기반 추천에 무작위 추천을 더해 리뷰가 적은 가게도 노출합니다.
+
+[화면과 코드](https://github.com/scnelMG/daebbang-portfolio) · [추천 방식](https://github.com/scnelMG/daebbang-portfolio/blob/main/docs/architecture.md)
 
 ## 수상
 
@@ -126,31 +61,39 @@
 - **2023.11 · 장려상** — 삼성화재 × POSTECH 리스크관리 경진대회 · [유튜버 협업 리스크](https://github.com/scnelMG/Samsungfire_Risk_Management)
 - **2023.09 · 대상** — 핀테크 연구 아이디어 경진대회 · [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance)
 
-## 추가 프로젝트
+## 다른 프로젝트
 
 <details>
-<summary>분야별 프로젝트 14개 보기</summary>
+<summary>서비스·데이터 분석·머신러닝 프로젝트 보기</summary>
+
+### 서비스 개발
+
+- [공연모아](https://performance-moa.vercel.app/) — 2026.09–현재. 예매처 **4곳**의 공연을 전국 **17개 시·도**별로 모아보는 서비스. 지역·장르·검색어별 탐색, 신규 공연 알림, 기기 간 알림 읽음 상태 동기화를 구현. 소스 비공개.
+
+### 금융 데이터 분석
+
+- [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) — 2024. ETF 보유 비중 상위 30개 종목의 AI 요약과 요약·군집 간 일관성 검토를 맡았습니다. TF-IDF·XGBoost·SHAP을 활용한 종목 설명 방식을 설계했습니다. 군집별 특성과 종목 설명의 주요 키워드를 [분석 결과](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick/tree/main/results)에 정리했습니다.
 
 ### 공공 · 소비자 데이터
 
-- [RMR 리뷰 기반 한식 맛 분석](https://github.com/scnelMG/2025-work-experience-rmr-review-analysis) — 공개 리뷰 수집·전처리와 제품군별 맛 표현 기준 정리.
-- [창원시 침수 위험 분석](https://github.com/scnelMG/2022-changwon-bigdata-flood-risk-analysis) — 강수량·지형·배수 접근성을 결합해 강수량 구간별 우선 검토 지역 도출.
-- [부산 침수 예측·경로 AI](https://github.com/scnelMG/2022-busan-flood-routing-ai) — 침수 예측과 강화학습을 활용한 대안 차량 경로 검토.
-- [부산 소상공인 경기 체감·전망](https://github.com/scnelMG/2022-kostat-small-business-outlook) — 카드소비·SNS·정책 자료를 결합한 경기 흐름 분석.
+- [RMR 리뷰 기반 한식 맛 분석](https://github.com/scnelMG/2025-work-experience-rmr-review-analysis) — 공개 리뷰를 수집·전처리하고 제품군별 맛 표현을 분석.
+- [창원시 침수 위험 분석](https://github.com/scnelMG/2022-changwon-bigdata-flood-risk-analysis) — 강수량·지형·배수 접근성으로 침수 위험을 분석하고 강수량 구간별 우선 검토 지역을 선정.
+- [부산 침수 예측·경로 AI](https://github.com/scnelMG/2022-busan-flood-routing-ai) — 침수 예측과 강화학습으로 대안 차량 경로를 검토.
+- [부산 소상공인 경기 체감·전망](https://github.com/scnelMG/2022-kostat-small-business-outlook) — 카드소비·SNS·정책 자료로 소상공인 경기 흐름을 분석.
 
 ### 금융 · 보험
 
-- [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance) — 식단 사진의 음식·영양 정보와 질병 위험 신호, 보험 보장 탐색을 연결한 개념 검증(PoC).
-- [유튜버 협업 리스크](https://github.com/scnelMG/Samsungfire_Risk_Management) — 유튜버 성장·댓글 감성·업로드 안정성 기반 협업 리스크 등급화.
+- [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance) — 식단 사진에서 음식·영양 정보를 분석하고 질병 위험 신호에 따른 보험 보장 탐색을 검토한 PoC.
+- [유튜버 협업 리스크](https://github.com/scnelMG/Samsungfire_Risk_Management) — 유튜버의 성장·댓글 감성·업로드 안정성을 분석해 협업 리스크를 등급화.
 - [KRX 주식 수익률 예측](https://github.com/scnelMG/2023_KRX_Stock_Algorithm) — 가격·재무·군집 특성으로 15거래일 기대수익률을 예측하고 Long–Short 종목 순위 제출.
-- [재무 부실 예측](https://github.com/scnelMG/2023-financial-distress-prediction) — 재무제표와 주석 텍스트의 수집·전처리·예측 모델링.
+- [재무 부실 예측](https://github.com/scnelMG/2023-financial-distress-prediction) — 재무제표와 주석 텍스트를 수집·전처리하고 재무 부실을 예측.
 - [ICT 멘토링 주가 예측](https://github.com/scnelMG/ict-mentoring-stock-prediction) — 주가·거래량·기술 지표·뉴스를 활용한 ARIMA·LSTM·GRU 비교와 PyQt 결과 화면 구현.
 - [FSI AIxData Challenge](https://github.com/scnelMG/FSI-AIxData-Challenge-2024) — 이상 금융거래 13개 유형 분류와 CTGAN 합성 데이터 생성. **Private 종합 점수 0.702640 · 22위**.
 
 ### 예측 모델링
 
-- [소득 예측 AI 해커톤](https://github.com/scnelMG/income-prediction-ai-hackathon) — 회귀 모델 비교와 CatBoost 최종 제출.
-- [LG Aimers 5기](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction) — 제조 품질 이상 탐지의 샘플링·모델 블렌딩·임계값 비교.
+- [소득 예측 AI 해커톤](https://github.com/scnelMG/income-prediction-ai-hackathon) — 회귀 모델을 비교하고 CatBoost로 최종 제출.
+- [LG Aimers 5기](https://github.com/scnelMG/lg-aimers-5th-manufacturing-quality-prediction) — 제조 품질 이상 탐지에서 샘플링·모델 블렌딩·임계값을 비교.
 - [LG Aimers 6기](https://github.com/scnelMG/LG_AImers_6th_pregnancy_prediction) — 난임 시술 데이터 기반 임신 성공 확률 예측. **공개 제출 최고 ROC-AUC 약 0.7414**.
 - [부산 이스포츠 데이터 분석](https://github.com/scnelMG/busan-esports-data-analysis) — LoL 경기 승패 예측과 주요 변수 해석. **LightGBM 5-fold 교차검증 평균 정확도 0.8763**.
 
