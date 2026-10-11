@@ -33,7 +33,7 @@ Python · PyTorch · Java · Spring Boot · MySQL · Vue.js
 - Chrome 확장 프로그램의 공고 저장·지원 서류 입력 보조, 로그인·온보딩, Notion 연동 담당.
 - SSAFY 1학기 프로젝트 경진대회 **최우수상**.
 
-[서비스](https://ez-one.o-r.kr/) · [확장 프로그램 코드](https://github.com/scnelMG/ez-one/tree/main/extension/src)
+[발표 자료](https://github.com/scnelMG/ez-one/blob/main/docs/presentations/ez-one-final-presentation.pdf) · [확장 프로그램 코드](https://github.com/scnelMG/ez-one/tree/main/extension/src)
 
 ### [대빵](https://github.com/scnelMG/daebbang-portfolio)
 
