@@ -34,9 +34,9 @@ Python · PyTorch · Java · Spring Boot · MySQL · Vue.js
 2026.08–10 · 취향 기반 대전 빵집 추천 · SSAFY 빅데이터 분산 팀 프로젝트
 
 - 리뷰 수집 → LLM 태그 분류 → Spark 점수 집계 → 빵집 추천으로 이어지는 팀 프로젝트.
-- 추천 API는 미리 계산한 점수를 조회. 점수 기반 추천에 무작위 추천을 더해 리뷰가 적은 가게도 노출.
+- 서비스 기획, 데이터 파이프라인·점수 로직 검토, 발표 자료 구성에 참여. 리뷰가 적거나 오래됐을 때의 보정과 외부·회원 리뷰 결합 방식을 정리.
 
-[서비스 화면](https://github.com/scnelMG/daebbang-portfolio#서비스-화면) · [추천 방식](https://github.com/scnelMG/daebbang-portfolio/blob/main/docs/architecture.md)
+[서비스 화면](https://github.com/scnelMG/daebbang-portfolio#서비스-화면) · [개인 기여](https://github.com/scnelMG/daebbang-portfolio/blob/main/docs/contribution.md) · [추천 방식](https://github.com/scnelMG/daebbang-portfolio/blob/main/docs/architecture.md)
 
 ### [공연모아](https://performance-moa.vercel.app/)
 
