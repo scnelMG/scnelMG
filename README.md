@@ -13,10 +13,10 @@ Python · PyTorch · Java · Spring Boot · MySQL · Vue.js
 2026.07–08 · AI 발표·면접 코칭 서비스
 
 - 한국어 음성 인식(STT), 짧은 필러 보완, 발화 이벤트 분석과 점수 계산 담당.
-- **탐지 정확도:** aivo **76%** / OpenAI `whisper-1` 5.5%.
-- **발화 분석 시간:** aivo **4.3초** / 한국어 발화 데이터로 LoRA 학습한 모델 41.5초.
+- **탐지 정확도(발표자료 표기):** aivo **76%** / 비교 모델 A 5.5%.
+- **발화 분석 시간(발표자료 표기):** aivo **4.3초** / 비교 모델 B 41.5초.
 
-직접 라벨링한 발표 평가 결과입니다. 정확도와 분석 시간의 비교 대상 모델은 서로 다릅니다.
+직접 라벨링한 발표 평가 결과이며, 두 지표의 비교 대상 모델은 서로 다릅니다. 모델명·지표 해석은 [공개 평가 근거와 확인 범위](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/evaluation.md)에 정리했습니다.
 
 [서비스](https://aivo.ai.kr/) · [발표·평가 자료](https://ssafy-pjt-presentation-source.vercel.app/)
 
