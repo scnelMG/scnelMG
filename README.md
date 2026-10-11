@@ -2,9 +2,15 @@
 
 금융 데이터를 분석하고 AI 서비스를 개발합니다.
 
-[이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com)
+[기술 블로그](https://pmq0328.tistory.com/?utm_source=github&utm_medium=referral&utm_campaign=profile) · [이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com)
 
 Python · PyTorch · Java · Spring Boot · MySQL · Vue.js
+
+## 프로젝트와 기술 기록
+
+- [Gemini 구조화 출력과 리뷰 라벨 검증](https://pmq0328.tistory.com/28?utm_source=github&utm_medium=referral&utm_campaign=profile&utm_content=gemini_validation) — JSON 형식 검사와 라벨 판단 검증을 나누고, 가상 리뷰를 사용한 Python 예제로 검사 범위를 확인했습니다. 실제 모델 교체 성능 비교는 아닙니다.
+- [밥;도 프로젝트 정리](https://pmq0328.tistory.com/18?utm_source=github&utm_medium=referral&utm_campaign=profile&utm_content=bapdo) — 리뷰 특징과 음식 사진을 유사 음식점 추천 PoC로 연결한 과정입니다.
+- [소개·대표 프로젝트](https://pmq0328.tistory.com/pages/about?utm_source=github&utm_medium=referral&utm_campaign=profile) — 역할과 구현·분석 과정을 읽을 수 있습니다.
 
 ## 서비스 개발
 
@@ -89,7 +95,7 @@ Python · PyTorch · Java · Spring Boot · MySQL · Vue.js
 <details>
 <summary>공공·소비자 데이터 · 4개</summary>
 
-- [RMR 리뷰 기반 한식 맛 분석](https://github.com/scnelMG/2025-work-experience-rmr-review-analysis) — 공개 리뷰 수집·전처리, 제품군별 맛 표현 분석.
+- [레스토랑 간편식 리뷰 기반 한식 맛 분석](https://github.com/scnelMG/2025-work-experience-rmr-review-analysis) — 공개 리뷰 수집·전처리, 제품군별 맛 표현 분석.
 - [창원시 침수 위험 분석](https://github.com/scnelMG/2022-changwon-bigdata-flood-risk-analysis) — 강수량·지형·배수 접근성을 분석해 강수량 구간별 우선 검토 지역 선정.
 - [부산 침수 예측·경로 AI](https://github.com/scnelMG/2022-busan-flood-routing-ai) — 침수 예측과 강화학습을 활용한 대안 차량 경로 검토.
 - [부산 소상공인 경기 체감·전망](https://github.com/scnelMG/2022-kostat-small-business-outlook) — 카드소비·SNS·정책 자료를 활용한 경기 흐름 분석.
@@ -117,3 +123,4 @@ Python · PyTorch · Java · Spring Boot · MySQL · Vue.js
 - [부산 이스포츠 데이터 분석](https://github.com/scnelMG/busan-esports-data-analysis) — LoL 경기 승패 예측과 주요 변수 해석. **LightGBM 5-fold 교차검증 평균 정확도 0.8763**.
 
 </details>
+
