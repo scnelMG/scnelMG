@@ -2,7 +2,7 @@
 
 Python·SQL로 금융과 산업 데이터를 분석하고, 음성 분석·검색·추천을 서비스 기능으로 구현합니다. Java·Spring Boot 기반 팀 프로젝트에서 인증·온보딩과 외부 서비스 연동도 맡았습니다.
 
-[기술 블로그](https://pmq0328.tistory.com/?utm_source=github&utm_medium=referral&utm_campaign=profile) · [이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com)
+[기술 블로그](https://pmq0328.tistory.com/?utm_source=github&utm_medium=referral&utm_campaign=profile) · [이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [이력서 (노션 기본 주소)](https://app.notion.com/p/35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com)
 
 Python · PyTorch · Java · Spring Boot · MySQL · Vue.js
 
