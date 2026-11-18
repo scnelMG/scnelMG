@@ -1,6 +1,6 @@
 # 박민규
 
-**AI의 분석·추천을 실제 서비스 흐름으로 연결하는 개발자다.** 음성 분석·LLM 상담을 구현하고, API·화면·저장 상태와 실패 복구까지 다룬다. Python·SQL을 활용한 금융·산업 데이터 분석 경험도 쌓았다.
+**Java·Spring Boot와 Python으로 음성 분석·검색·추천을 서비스 기능으로 구현하는 개발자다.** API·인증·외부 서비스 연동과 중복 요청·버전 충돌·일시적 오류 처리, 회귀 테스트를 맡았다. LLM 상담·화면 연동과 Python·SQL 기반 금융·산업 데이터 분석 경험도 쌓았다.
 
 [기술 블로그](https://pmq0328.tistory.com/?utm_source=github&utm_medium=referral&utm_campaign=profile) · [이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com)
 
@@ -16,8 +16,8 @@
 
 2026.11 · 3D 얼굴 생성·편집·비교 · SSAFY 7인 팀
 
-- **AI 상담 API·React 상담 화면**을 구현해 자연어 요청을 검증·저장된 3D 편집 결과로 연결했다.
-- 현재 시안의 측정값을 기준으로 추천을 검증하고, 중복 호출·버전 충돌·대화 복귀 시 상태를 처리했다.
+- **Spring 상담 API와 React 상담 화면**을 구현해 자연어 요청을 편집 후보로 해석하고, 서버가 검증·저장한 결과를 3D 화면·대화 기록과 연동했다.
+- 현재 시안의 측정값·유지 조건에 맞춰 추천을 검증했다. 중복 호출·오래된 제안의 적용을 차단하고, 화면 복귀 시 저장된 추천·적용 결과를 복원했다. 버전 충돌 등의 경계 조건을 회귀 테스트로 확인했다.
 
 [상담 시연](https://github.com/scnelMG/preface#ai-상담-시연) · [설계·구현·회귀 테스트](https://github.com/scnelMG/preface#핵심-설계-결정) · [설계 기록](https://chatter-ease-47e.notion.site/41c7f120758f81b9b193d46000ef59df)
 
@@ -25,8 +25,8 @@
 
 2026.07–08 · AI 발표·면접 코칭 · SSAFY 6인 팀
 
-- **한국어 STT·필러 보완·발화 이벤트·점수 산출** 파이프라인을 구현했다.
-- 전체 전사에 **8초 창 재전사**를 더하고 **0.3초 이내 중복 필러**를 병합했다. 합성 입력으로 병합·시각·침묵 구간을 회귀 검사했다.
+- **한국어 STT·필러 보완·발화 분석** 파이프라인을 구현했다. **8초 창 재전사**로 필러를 보완하고 **0.3초 이내 동일 검출**을 병합했다.
+- 발화 구간(VAD)·피치·RMS와 단어별 발화 시각으로 코칭 이벤트·점수를 산출하고, 합성 입력으로 필러 병합·재전사 시각·침묵 구간을 회귀 검사했다.
 
 [개인 구현](https://github.com/scnelMG/aivo-portfolio#개인-기여) · [코드](https://github.com/scnelMG/aivo-portfolio/blob/main/backend-fastapi-main/models/filer/src/presentation_coaching_filler_rescue.py) · [CI 기록](https://github.com/scnelMG/aivo-portfolio/actions/workflows/coaching-tests.yml) · [설계 기록](https://chatter-ease-47e.notion.site/41c7f120758f81c7a506feea1b3fbd6d)
 
@@ -34,8 +34,8 @@
 
 2026.01–06 · 채용 공고별 지원 준비 · SSAFY 2인 팀 · **최우수상**
 
-- **로그인·온보딩·Chrome Extension·Notion 연동**을 맡았다.
-- 확장 프로그램의 인증 갱신에서 동시 요청을 공유하고, 인증 실패와 일시적 연결 오류를 구분해 세션을 처리했다.
+- **로그인·온보딩·Chrome 확장 프로그램·Notion 연동**을 구현했다. 원래 공고 탭 복귀·공고 저장·서류 입력 보조·공고 동기화를 연결했다.
+- 같은 세션의 동시 인증 갱신 요청을 공유하고, 인증 거절과 일시적 네트워크·서버 오류를 구분했다. 이전 요청의 실패가 새 로그인 세션을 지우지 않도록 처리했다.
 
 [개인 기여·설계 사례](https://github.com/scnelMG/ez-one#개인-기여) · [인증 코드](https://github.com/scnelMG/ez-one/blob/main/extension/src/shared/auth/extensionAuth.js) · [테스트 기록](https://github.com/scnelMG/ez-one/actions/workflows/tests.yml) · [설계 기록](https://chatter-ease-47e.notion.site/41c7f120758f814aa279c90be3d27014)
 
