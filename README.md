@@ -4,7 +4,9 @@
 
 [기술 블로그](https://pmq0328.tistory.com/?utm_source=github&utm_medium=referral&utm_campaign=profile) · [이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com)
 
-Java · Spring Boot · Python · SQL · React · TypeScript · Redis
+**Backend** Java · Spring Boot · Redis  
+**AI·데이터** Python · SQL  
+**UI** React · TypeScript
 
 [대표 프로젝트](#대표-프로젝트) · [다른 프로젝트](#다른-프로젝트) · [수상·기술 기록](#수상기술-기록)
 
@@ -17,7 +19,7 @@ Java · Spring Boot · Python · SQL · React · TypeScript · Redis
 - **AI 상담 API·React 상담 화면**을 구현해 자연어 요청을 검증·저장된 3D 편집 결과로 연결했다.
 - 현재 시안의 측정값을 기준으로 추천을 검증하고, 중복 호출·버전 충돌·대화 복귀 시 상태를 처리했다.
 
-[상담 시연](https://github.com/scnelMG/preface#ai-상담-시연) · [설계·구현·회귀 테스트](https://github.com/scnelMG/preface#핵심-설계-결정)
+[상담 시연](https://github.com/scnelMG/preface#ai-상담-시연) · [설계·구현·회귀 테스트](https://github.com/scnelMG/preface#핵심-설계-결정) · [설계 기록](https://chatter-ease-47e.notion.site/41c7f120758f81b9b193d46000ef59df)
 
 ### [aivo](https://github.com/scnelMG/aivo-portfolio)
 
@@ -26,7 +28,7 @@ Java · Spring Boot · Python · SQL · React · TypeScript · Redis
 - **한국어 STT·필러 보완·발화 이벤트·점수 산출** 파이프라인을 구현했다.
 - 전체 전사에 **8초 창 재전사**를 더하고 **0.3초 이내 중복 필러**를 병합했다. 합성 입력으로 병합·시각·침묵 구간을 회귀 검사했다.
 
-[개인 구현](https://github.com/scnelMG/aivo-portfolio#개인-기여) · [코드](https://github.com/scnelMG/aivo-portfolio/blob/main/backend-fastapi-main/models/filer/src/presentation_coaching_filler_rescue.py) · [CI 기록](https://github.com/scnelMG/aivo-portfolio/actions/workflows/coaching-tests.yml)
+[개인 구현](https://github.com/scnelMG/aivo-portfolio#개인-기여) · [코드](https://github.com/scnelMG/aivo-portfolio/blob/main/backend-fastapi-main/models/filer/src/presentation_coaching_filler_rescue.py) · [CI 기록](https://github.com/scnelMG/aivo-portfolio/actions/workflows/coaching-tests.yml) · [설계 기록](https://chatter-ease-47e.notion.site/41c7f120758f81c7a506feea1b3fbd6d)
 
 ### [EZ-ONE](https://github.com/scnelMG/ez-one)
 
@@ -35,7 +37,7 @@ Java · Spring Boot · Python · SQL · React · TypeScript · Redis
 - **로그인·온보딩·Chrome Extension·Notion 연동**을 맡았다.
 - 확장 프로그램의 인증 갱신에서 동시 요청을 공유하고, 인증 실패와 일시적 연결 오류를 구분해 세션을 처리했다.
 
-[개인 기여·설계 사례](https://github.com/scnelMG/ez-one#개인-기여) · [인증 코드](https://github.com/scnelMG/ez-one/blob/main/extension/src/shared/auth/extensionAuth.js) · [테스트 기록](https://github.com/scnelMG/ez-one/actions/workflows/tests.yml)
+[개인 기여·설계 사례](https://github.com/scnelMG/ez-one#개인-기여) · [인증 코드](https://github.com/scnelMG/ez-one/blob/main/extension/src/shared/auth/extensionAuth.js) · [테스트 기록](https://github.com/scnelMG/ez-one/actions/workflows/tests.yml) · [설계 기록](https://chatter-ease-47e.notion.site/41c7f120758f814aa279c90be3d27014)
 
 ## 다른 프로젝트
 
