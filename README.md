@@ -1,45 +1,57 @@
 # 박민규
 
-**AI의 분석·추천을 사용자의 다음 행동으로 연결하는 개발자다.** 음성 분석과 LLM 상담을 서비스 기능으로 구현하고, Java·Spring Boot와 React로 API·화면·저장 결과를 연결한다. Python·SQL을 활용한 금융·산업 데이터 분석 경험도 쌓았다.
+**AI의 분석·추천을 실제 서비스 흐름으로 연결하는 개발자다.** 음성 분석·LLM 상담을 구현하고, API·화면·저장 상태와 실패 복구까지 다룬다. Python·SQL을 활용한 금융·산업 데이터 분석 경험도 쌓았다.
 
-[기술 블로그](https://pmq0328.tistory.com/?utm_source=github&utm_medium=referral&utm_campaign=profile) · [이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [이력서 (노션 기본 주소)](https://app.notion.com/p/35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com)
+[기술 블로그](https://pmq0328.tistory.com/?utm_source=github&utm_medium=referral&utm_campaign=profile) · [이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com)
 
-Java · Spring Boot · Python · SQL · PyTorch · React · TypeScript · Vue.js · Redis
+Java · Spring Boot · Python · SQL · React · TypeScript · Redis
 
-[서비스 개발](#서비스-개발) · [데이터 분석·추천](#데이터-분석추천) · [수상](#수상) · [기술 기록](#기술-기록)
+[대표 프로젝트](#대표-프로젝트) · [다른 프로젝트](#다른-프로젝트) · [수상·기술 기록](#수상기술-기록)
 
-## 서비스 개발
+## 대표 프로젝트
 
 ### [Preface](https://github.com/scnelMG/preface)
 
-2026.11 · 3D 얼굴 생성·편집·비교 서비스 · SSAFY 7인 팀 프로젝트
+2026.11 · 3D 얼굴 생성·편집·비교 · SSAFY 7인 팀
 
-- **AI 상담 API와 React 상담 화면**을 구현해 자연어 요청을 서버에서 검증·저장한 3D 편집 결과로 연결했다.
-- 현재 시안의 측정값과 조절 전후 시험값을 근거로 추천 후보를 검증하고, 추천 카드에서 슬라이더·3D 비교로 이어지게 했다.
-- Redis로 중복 GMS 호출을 차단하고, 실패·편집 버전 충돌·대화 복귀 시 상태를 처리했다. 해당 경로의 회귀 테스트도 작성했다.
+- **AI 상담 API·React 상담 화면**을 구현해 자연어 요청을 검증·저장된 3D 편집 결과로 연결했다.
+- 현재 시안의 측정값을 추천 근거로 검증하고, 중복 호출·버전 충돌·대화 복귀 시 상태를 처리했다.
 
-[상담 시연](https://github.com/scnelMG/preface#ai-상담-시연) · [설계 결정·구현 코드](https://github.com/scnelMG/preface#핵심-설계-결정) · [개인 기여](https://github.com/scnelMG/preface#개인-기여)
+[상담 시연](https://github.com/scnelMG/preface#ai-상담-시연) · [설계·구현·회귀 테스트](https://github.com/scnelMG/preface#핵심-설계-결정)
 
 ### [aivo](https://github.com/scnelMG/aivo-portfolio)
 
-2026.07–08 · AI 발표·면접 코칭 서비스
+2026.07–08 · AI 발표·면접 코칭 · SSAFY 6인 팀
 
-- 한국어 음성 인식(STT), 짧은 필러 보완, 발화 이벤트 분석과 점수 계산 담당.
-- **탐지 정확도(발표자료 표기):** aivo **76%** / 비교 모델 A 5.5%.
-- **발화 분석 시간(발표자료 표기):** aivo **4.3초** / 비교 모델 B 41.5초.
+- **한국어 STT·필러 보완·발화 이벤트·점수 산출** 파이프라인을 구현했다.
+- 전체 전사에 **8초 창 재전사**를 더하고 **0.3초 이내 중복 필러**를 병합했다. 합성 입력으로 병합·시각·침묵 구간을 회귀 검사했다.
 
-직접 라벨링한 발표 평가 결과이며, 두 지표의 비교 대상 모델은 서로 다릅니다. 모델명·지표 해석은 [공개 평가 근거와 확인 범위](https://github.com/scnelMG/aivo-portfolio/blob/main/docs/evaluation.md)에 정리했습니다.
-
-[서비스](https://aivo.ai.kr/) · [발표·평가 자료](https://ssafy-pjt-presentation-source.vercel.app/)
+[개인 구현](https://github.com/scnelMG/aivo-portfolio#개인-기여) · [코드](https://github.com/scnelMG/aivo-portfolio/blob/main/backend-fastapi-main/models/filer/src/presentation_coaching_filler_rescue.py) · [CI 기록](https://github.com/scnelMG/aivo-portfolio/actions/workflows/coaching-tests.yml)
 
 ### [EZ-ONE](https://github.com/scnelMG/ez-one)
 
-2026.01–06 · 채용 공고별 지원 준비 서비스
+2026.01–06 · 채용 공고별 지원 준비 · SSAFY 2인 팀 · **최우수상**
 
-- Chrome 확장 프로그램의 공고 저장·지원 서류 입력 보조, 로그인·온보딩, Notion 연동 담당.
-- SSAFY 1학기 프로젝트 경진대회 **최우수상**.
+- **로그인·온보딩·Chrome Extension·Notion 연동**을 맡았다.
+- 확장 프로그램의 인증 갱신에서 동시 요청을 공유하고, 인증 실패와 일시적 연결 오류를 구분해 세션을 처리했다.
 
-[발표 자료](https://github.com/scnelMG/ez-one/blob/main/docs/presentations/ez-one-final-presentation.pdf) · [확장 프로그램 코드](https://github.com/scnelMG/ez-one/tree/main/extension/src) · [테스트 실행 기록](https://github.com/scnelMG/ez-one/actions/workflows/tests.yml)
+[개인 기여·설계 사례](https://github.com/scnelMG/ez-one#개인-기여) · [인증 코드](https://github.com/scnelMG/ez-one/blob/main/extension/src/shared/auth/extensionAuth.js) · [테스트 기록](https://github.com/scnelMG/ez-one/actions/workflows/tests.yml)
+
+## 다른 프로젝트
+
+<details>
+<summary>금융·산업 데이터 분석·추천 · 3개</summary>
+
+| 프로젝트 | 직접 맡은 일 | 근거 |
+| --- | --- | --- |
+| [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK) | 구간형 금융 데이터의 정합성 점검·수치화·K-Means 모델링 | [개인 기여](https://github.com/scnelMG/2025-dive-hackerton-BNK#개인-기여-요약) · BNK부산은행 발제사 3등 |
+| [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) | ETF 보유 종목 AI 요약과 TF-IDF·XGBoost·SHAP 설명 근거 | [구현·결과](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick#개인-작업의-코드와-결과) |
+| [제조업 DX 매칭](https://github.com/scnelMG/manufacturing-dx-matching) | 팀장 · 기업 직접 비교를 기술 검색 후 기업 추천으로 전환, KR-SBERT·FAISS·재정렬 설계 | [검색·재정렬 코드](https://github.com/scnelMG/manufacturing-dx-matching/blob/main/src/matching.py) · [실제 산출물](https://github.com/scnelMG/manufacturing-dx-matching/tree/main/results) |
+
+</details>
+
+<details>
+<summary>서비스 기획·추천·공연 탐색 · 2개</summary>
 
 ### [대빵](https://github.com/scnelMG/daebbang-portfolio)
 
@@ -59,50 +71,7 @@ Java · Spring Boot · Python · SQL · PyTorch · React · TypeScript · Vue.js
 
 [서비스](https://performance-moa.vercel.app/) · 소스 비공개
 
-## 데이터 분석·추천
-
-### [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK)
-
-2025.08 · 금융 고객 데이터 분석
-
-- 구간형 데이터의 정합성 점검·수치화와 이자 수익·비이자 수익 기준 K-Means 고객 군집화 담당.
-- 4인 팀·24시간 해커톤에서 **BNK부산은행 발제사 3등**.
-
-[분석 결과·관리 전략](https://github.com/scnelMG/2025-dive-hackerton-BNK/blob/main/docs/results.md) · [모델 검증 범위](https://github.com/scnelMG/2025-dive-hackerton-BNK/blob/main/docs/model-validation.md)
-
-### [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick)
-
-2024 · ETF 군집 분석과 AI 종목 요약
-
-- ETF 보유 비중 상위 30개 종목의 AI 요약과 요약·군집 간 일관성 검토 담당.
-- TF-IDF·XGBoost·SHAP을 활용한 설명 방식 설계. 군집별 특성과 종목 설명의 주요 키워드 분석.
-
-[분석 결과](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick/tree/main/results)
-
-### [제조업 DX 매칭](https://github.com/scnelMG/manufacturing-dx-matching)
-
-2025.06–07 · 기업 설명을 이용한 기술·공급기업 검색
-
-- 팀장으로서 기업 간 직접 비교를 기술 검색 후 공급기업 추천 방식으로 변경. KR-SBERT·FAISS 검색과 기업별 순위 재정렬 설계.
-- 수요기업 **2곳**의 기술 후보·공급기업 추천 결과를 HTML로 정리.
-
-[추천 결과](https://github.com/scnelMG/manufacturing-dx-matching/tree/main/results) · [검색·재정렬 코드](https://github.com/scnelMG/manufacturing-dx-matching/blob/main/src/matching.py)
-
-## 수상
-
-- 2026.06 · **최우수상** — SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one)
-- 2025.11 · **대상** — 지산학 연계 산업수학 데이터 탐구 대회 · [부산 무더위쉼터 최적 입지](https://github.com/scnelMG/2025-busan-heatwave-shelter-mclp)
-- 2025.08 · **발제사 3등** — DIVE 글로벌 해커톤 · [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK)
-- 2023.11 · **장려상** — 삼성화재 × POSTECH 리스크관리 경진대회 · [유튜버 협업 리스크](https://github.com/scnelMG/Samsungfire_Risk_Management)
-- 2023.09 · **대상** — 핀테크 연구 아이디어 경진대회 · [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance)
-
-## 기술 기록
-
-- [Gemini 구조화 출력과 리뷰 라벨 검증](https://pmq0328.tistory.com/28?utm_source=github&utm_medium=referral&utm_campaign=profile&utm_content=gemini_validation) — JSON 형식 검사와 라벨 판단 검증을 나누고, 가상 리뷰를 사용한 Python 예제로 검사 범위를 확인했습니다. 실제 모델 교체 성능 비교는 아닙니다.
-- [밥;도 프로젝트 정리](https://pmq0328.tistory.com/18?utm_source=github&utm_medium=referral&utm_campaign=profile&utm_content=bapdo) — 리뷰 특징과 음식 사진을 유사 음식점 추천 PoC로 연결한 과정입니다.
-- [소개·대표 프로젝트](https://pmq0328.tistory.com/pages/about?utm_source=github&utm_medium=referral&utm_campaign=profile) — 역할과 구현·분석 과정을 읽을 수 있습니다.
-
-## 기타 프로젝트
+</details>
 
 <details>
 <summary>공공·소비자 데이터 · 4개</summary>
@@ -136,4 +105,24 @@ Java · Spring Boot · Python · SQL · PyTorch · React · TypeScript · Vue.js
 
 </details>
 
+## 수상·기술 기록
 
+<details>
+<summary>수상 이력 · 5건</summary>
+
+- 2026.06 · **최우수상** — SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one)
+- 2025.11 · **대상** — 지산학 연계 산업수학 데이터 탐구 대회 · [부산 무더위쉼터 최적 입지](https://github.com/scnelMG/2025-busan-heatwave-shelter-mclp)
+- 2025.08 · **발제사 3등** — DIVE 글로벌 해커톤 · [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK)
+- 2023.11 · **장려상** — 삼성화재 × POSTECH 리스크관리 경진대회 · [유튜버 협업 리스크](https://github.com/scnelMG/Samsungfire_Risk_Management)
+- 2023.09 · **대상** — 핀테크 연구 아이디어 경진대회 · [EveryHI](https://github.com/scnelMG/EveryHI-food-risk-insurance)
+
+</details>
+
+<details>
+<summary>기술 기록과 소개</summary>
+
+- [Gemini 구조화 출력과 리뷰 라벨 검증](https://pmq0328.tistory.com/28?utm_source=github&utm_medium=referral&utm_campaign=profile&utm_content=gemini_validation) — JSON 형식 검사와 라벨 판단 검증을 나누고, 가상 리뷰를 사용한 Python 예제로 검사 범위를 확인했습니다. 실제 모델 교체 성능 비교는 아닙니다.
+- [밥;도 프로젝트 정리](https://pmq0328.tistory.com/18?utm_source=github&utm_medium=referral&utm_campaign=profile&utm_content=bapdo) — 리뷰 특징과 음식 사진을 유사 음식점 추천 PoC로 연결한 과정입니다.
+- [소개·대표 프로젝트](https://pmq0328.tistory.com/pages/about?utm_source=github&utm_medium=referral&utm_campaign=profile) — 역할과 구현·분석 과정을 읽을 수 있습니다.
+
+</details>
