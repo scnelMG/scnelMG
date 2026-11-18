@@ -1,14 +1,24 @@
 # 박민규
 
-Python·SQL로 금융과 산업 데이터를 분석하고, 음성 분석·검색·추천을 서비스 기능으로 구현합니다. Java·Spring Boot 기반 팀 프로젝트에서 인증·온보딩과 외부 서비스 연동도 맡았습니다.
+**AI의 분석·추천을 사용자의 다음 행동으로 연결하는 개발자다.** 음성 분석과 LLM 상담을 서비스 기능으로 구현하고, Java·Spring Boot와 React로 API·화면·저장 결과를 연결한다. Python·SQL을 활용한 금융·산업 데이터 분석 경험도 쌓았다.
 
 [기술 블로그](https://pmq0328.tistory.com/?utm_source=github&utm_medium=referral&utm_campaign=profile) · [이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [이력서 (노션 기본 주소)](https://app.notion.com/p/35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com)
 
-Python · PyTorch · Java · Spring Boot · MySQL · Vue.js
+Java · Spring Boot · Python · SQL · PyTorch · React · TypeScript · Vue.js · Redis
 
 [서비스 개발](#서비스-개발) · [데이터 분석·추천](#데이터-분석추천) · [수상](#수상) · [기술 기록](#기술-기록)
 
 ## 서비스 개발
+
+### [Preface](https://github.com/scnelMG/preface)
+
+2026.11 · 3D 얼굴 생성·편집·비교 서비스 · SSAFY 7인 팀 프로젝트
+
+- **AI 상담 API와 React 상담 화면**을 구현해 자연어 요청을 서버에서 검증·저장한 3D 편집 결과로 연결했다.
+- 현재 시안의 측정값과 조절 전후 시험값을 근거로 추천 후보를 검증하고, 추천 카드에서 슬라이더·3D 비교로 이어지게 했다.
+- Redis로 중복 GMS 호출을 차단하고, 실패·편집 버전 충돌·대화 복귀 시 상태를 처리했다. 해당 경로의 회귀 테스트도 작성했다.
+
+[상담 시연](https://github.com/scnelMG/preface#ai-상담-시연) · [설계 결정·구현 코드](https://github.com/scnelMG/preface#핵심-설계-결정) · [개인 기여](https://github.com/scnelMG/preface#개인-기여)
 
 ### [aivo](https://github.com/scnelMG/aivo-portfolio)
 
@@ -125,4 +135,5 @@ Python · PyTorch · Java · Spring Boot · MySQL · Vue.js
 - [부산 이스포츠 데이터 분석](https://github.com/scnelMG/busan-esports-data-analysis) — LoL 경기 승패 예측과 주요 변수 해석. **LightGBM 5-fold 교차검증 평균 정확도 0.8763**.
 
 </details>
+
 
