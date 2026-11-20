@@ -2,19 +2,19 @@
 
 **Java·Spring Boot와 Python으로 음성 분석·검색·추천을 서비스 기능으로 구현하는 개발자다.** API·인증·외부 서비스 연동과 중복 요청·버전 충돌·일시적 오류 처리, 회귀 테스트를 맡았다. LLM 상담·화면 연동과 Python·SQL 기반 금융·산업 데이터 분석 경험도 쌓았다.
 
-[기술 블로그](https://pmq0328.tistory.com/?utm_source=github&utm_medium=referral&utm_campaign=profile) · [이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com)
+[기술 블로그](https://pmq0328.tistory.com/?utm_source=github&utm_medium=referral&utm_campaign=profile) · [이력서](https://chatter-ease-47e.notion.site/Park-MinGyu-35c7f120758f80d69c05c47f506475c4) · [LinkedIn](https://www.linkedin.com/in/%EB%AF%BC%EA%B7%9C-%EB%B0%95-986b71426/) · [이메일](mailto:qkralsrb4407@gmail.com) · [Email](mailto:qkralsrb4407@naver.com)
 
 **Backend** Java · Spring Boot · Redis  
 **AI·데이터** Python · SQL  
 **UI** React · TypeScript
 
-[대표 프로젝트](#대표-프로젝트) · [다른 프로젝트](#다른-프로젝트) · [수상·기술 기록](#수상기술-기록)
+[대표 프로젝트](#대표-프로젝트) · [산학협력](#산학협력) · [개인 프로젝트](#개인-프로젝트) · [다른 프로젝트](#다른-프로젝트) · [수상·기술 기록](#수상기술-기록)
 
 ## 대표 프로젝트
 
-### [Preface](https://github.com/scnelMG/preface)
+### [preface](https://github.com/scnelMG/preface)
 
-2026.11 · 3D 얼굴 생성·편집·비교 · SSAFY 7인 팀
+2026.11 · 3D 얼굴 생성·편집·비교 · SSAFY 7인 팀 · 대전 캠퍼스 발표회 진출
 
 - **Spring 상담 API와 React 상담 화면**을 구현해 자연어 요청을 편집 후보로 해석하고, 서버가 검증·저장한 결과를 3D 화면·대화 기록과 연동했다.
 - 현재 시안의 측정값·유지 조건에 맞춰 추천을 검증했다. 중복 호출·오래된 제안의 적용을 차단하고, 화면 복귀 시 저장된 추천·적용 결과를 복원했다. 버전 충돌 등의 경계 조건을 회귀 테스트로 확인했다.
@@ -23,10 +23,11 @@
 
 ### [aivo](https://github.com/scnelMG/aivo-portfolio)
 
-2026.07–08 · AI 발표·면접 코칭 · SSAFY 6인 팀
+2026.07–08 · AI 발표·면접 코칭 · SSAFY 6인 팀 · **우수상**
 
 - **한국어 STT·필러 보완·발화 분석** 파이프라인을 구현했다. **8초 창 재전사**로 필러를 보완하고 **0.3초 이내 동일 검출**을 병합했다.
 - 발화 구간(VAD)·피치·RMS와 단어별 발화 시각으로 코칭 이벤트·점수를 산출하고, 합성 입력으로 필러 병합·재전사 시각·침묵 구간을 회귀 검사했다.
+- SSAFY 유저 테스트 프로그램에 선정되어 삼성 경력사원 임직원의 피드백 **17건**(Major 10, Minor 7)을 받았다.
 
 [개인 구현](https://github.com/scnelMG/aivo-portfolio#개인-기여) · [코드](https://github.com/scnelMG/aivo-portfolio/blob/main/backend-fastapi-main/models/filer/src/presentation_coaching_filler_rescue.py) · [CI 기록](https://github.com/scnelMG/aivo-portfolio/actions/workflows/coaching-tests.yml) · [설계 기록](https://chatter-ease-47e.notion.site/41c7f120758f81c7a506feea1b3fbd6d)
 
@@ -39,21 +40,51 @@
 
 [개인 기여·설계 사례](https://github.com/scnelMG/ez-one#개인-기여) · [인증 코드](https://github.com/scnelMG/ez-one/blob/main/extension/src/shared/auth/extensionAuth.js) · [테스트 기록](https://github.com/scnelMG/ez-one/actions/workflows/tests.yml) · [설계 기록](https://chatter-ease-47e.notion.site/41c7f120758f814aa279c90be3d27014)
 
+## 산학협력
+
+### [제조업 DX 공급기업 매칭 · 일루넥스](https://github.com/scnelMG/manufacturing-dx-matching)
+
+2025.06–07 · 제조업 스타트업 일루넥스 · 5인 팀 · **팀장**
+
+- 수요기업의 기술 니즈가 데이터에 없다는 한계를 확인하고, 기업끼리 비교하던 매칭을 **수요기업 → 기술 → 공급기업** 검색 구조로 바꿨다.
+- KR-SBERT·FAISS로 기술 후보를 찾고 공급기업 단위로 재정렬했다. 정답 라벨이 없어 정확도 대신 검토 가능한 후보군을 목표로 했고, 실제 수요기업 2곳의 매칭 결과를 정리했다.
+
+[매칭 결과와 한계](https://github.com/scnelMG/manufacturing-dx-matching#결과-해석과-한계) · [검색·재정렬 코드](https://github.com/scnelMG/manufacturing-dx-matching/blob/main/src/matching.py)
+
+## 개인 프로젝트
+
+### [공연모아](https://performance-moa.vercel.app/)
+
+2026.09–현재 · 전국 공연 탐색 서비스 · 개인
+
+- 지역·장르·검색어별 공연 탐색, 신규 공연 알림, 기기 간 알림 읽음 상태 동기화 구현.
+- 예매처 **4곳**, 전국 **17개 시·도**의 공연을 모아보고 예매처로 이동.
+
+[서비스](https://performance-moa.vercel.app/) · 소스 비공개
+
+### [근거 중심 개인 음악 아카이브](https://github.com/scnelMG/music-kg-graphrag)
+
+개인 · 2026.08 이후 개발 중단
+
+- MusicBrainz로 앨범을 찾아 Notion에 기록하고, 그 기록을 근거로 GraphDB SPARQL에서 다음 앨범 후보를 집계한다. Spring Boot API, Next.js BFF, RDF/SHACL 검증 파이프라인으로 구성했다.
+- GraphDB가 응답하지 않으면 다른 추천으로 가장하지 않고 오류(503)를 반환하도록 설계했다.
+
+[저장소](https://github.com/scnelMG/music-kg-graphrag) · [서비스](https://music-kg-graphrag.vercel.app)
+
 ## 다른 프로젝트
 
 <details>
-<summary>금융·산업 데이터 분석·추천 · 3개</summary>
+<summary>금융 데이터 분석·추천 · 2개</summary>
 
 | 프로젝트 | 직접 맡은 일 | 근거 |
 | --- | --- | --- |
 | [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK) | 구간형 금융 데이터의 정합성 점검·수치화·K-Means 모델링 | [개인 기여](https://github.com/scnelMG/2025-dive-hackerton-BNK#개인-기여-요약) · BNK부산은행 발제사 3등 |
 | [Gen Pick](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick) | ETF 보유 종목 AI 요약과 TF-IDF·XGBoost·SHAP 설명 근거 | [구현·결과](https://github.com/scnelMG/2024-nh-bigdata-etf-genpick#개인-작업의-코드와-결과) |
-| [제조업 DX 매칭](https://github.com/scnelMG/manufacturing-dx-matching) | 팀장 · 기업 직접 비교를 기술 검색 후 기업 추천으로 전환, KR-SBERT·FAISS·재정렬 설계 | [검색·재정렬 코드](https://github.com/scnelMG/manufacturing-dx-matching/blob/main/src/matching.py) · [실제 산출물](https://github.com/scnelMG/manufacturing-dx-matching/tree/main/results) |
 
 </details>
 
 <details>
-<summary>서비스 기획·추천·공연 탐색 · 2개</summary>
+<summary>서비스 기획·추천 · 1개</summary>
 
 ### [대빵](https://github.com/scnelMG/daebbang-portfolio)
 
@@ -63,15 +94,6 @@
 - 서비스 기획, 데이터 파이프라인·점수 로직 검토, 발표 자료 구성에 참여. 리뷰가 적거나 오래됐을 때의 보정과 외부·회원 리뷰 결합 방식을 정리.
 
 [서비스 화면](https://github.com/scnelMG/daebbang-portfolio#서비스-화면) · [개인 기여](https://github.com/scnelMG/daebbang-portfolio/blob/main/docs/contribution.md) · [추천 방식](https://github.com/scnelMG/daebbang-portfolio/blob/main/docs/architecture.md)
-
-### [공연모아](https://performance-moa.vercel.app/)
-
-2026.09–현재 · 전국 공연 탐색 서비스
-
-- 지역·장르·검색어별 공연 탐색, 신규 공연 알림, 기기 간 알림 읽음 상태 동기화 구현.
-- 예매처 **4곳**, 전국 **17개 시·도**의 공연을 모아보고 예매처로 이동.
-
-[서비스](https://performance-moa.vercel.app/) · 소스 비공개
 
 </details>
 
@@ -110,8 +132,9 @@
 ## 수상·기술 기록
 
 <details>
-<summary>수상 이력 · 5건</summary>
+<summary>수상 이력 · 6건</summary>
 
+- 2026.08 · **우수상** — SSAFY 2학기 팀 프로젝트 · [aivo](https://github.com/scnelMG/aivo-portfolio)
 - 2026.06 · **최우수상** — SSAFY 1학기 프로젝트 경진대회 · [EZ-ONE](https://github.com/scnelMG/ez-one)
 - 2025.11 · **대상** — 지산학 연계 산업수학 데이터 탐구 대회 · [부산 무더위쉼터 최적 입지](https://github.com/scnelMG/2025-busan-heatwave-shelter-mclp)
 - 2025.08 · **발제사 3등** — DIVE 글로벌 해커톤 · [BNK 고객 세분화](https://github.com/scnelMG/2025-dive-hackerton-BNK)
